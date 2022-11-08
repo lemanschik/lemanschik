@@ -1,9 +1,5 @@
 ### Hi there 👋
 
-<!--
-**lemanschik/lemanschik** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
-
-Here are some ideas to get you started:
 
 # 🔭 I’m currently working on ...
 - [ ] Migrating https://github.com/frank-dspeed to https://github.com/lemanschik/frank
@@ -16,4 +12,11 @@ Here are some ideas to get you started:
 - 📫 How to reach me: ...
 - 😄 Pronouns: ...
 - ⚡ Fun fact: ...
+
+<!--
+
+**lemanschik/lemanschik** is a ✨ Frank Lemanschik github profile page ✨ repository because its `README.md` (this file) appears on my GitHub profile.
+Here are some ideas to get you started:
+
+
 -->
