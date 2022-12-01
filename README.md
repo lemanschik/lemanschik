@@ -1,11 +1,7 @@
 ### Hi there 👋 i am the founder of @component-manager
 
-If you want to know more about me see: https://github.lemanschik.com/profile or https://github.com/lemanschik/profile
-
-Mainly i try to enable Browser based Distributed Builds of all Chromium Platform Parts and Similar Software Stacks eg: GraalVM
-
-as also Compiling Python and other Languages into ECMAScript and C++ Objects using AST Structures... 
-
+I write the build tools and compilers that other should use while they do not do so. I also author books that no one did read or will read.
+I do it so that when i am dead i can look back and say i knowed it better.
 
 ## Why?
 I am a Senior Level Dev with over 30 years of Expirence and understood from history that LUA was one of the most amazing production drivers
@@ -18,14 +14,14 @@ Linux Kernel implementations and Kubernetes Implementations, I did that for any 
 
 So a good mix of Hardware and Language Implementation knowleg paired with years of open source reading and auditing as also usage. 
 
-## Oberservation wich would be solved by switching to a ECMAScript host as the main build engine
+## Oberservations
 - Code gets more often readed then written
 - Code gets even more often readed Programatical
 - Code builds more often then used 
 - Code Caching is always something that needs to get implemented per Project no good existing structures for shared Open Source Builds.
-  - Just learned that there is something called web bundle which is even more bad again while i like the idea to define a standard to upload bundels
-  - the main problem with web bundels is that they exist already the best format for web Bundels is the so called rollup Chunk Type it has all
-  - needed glue code and you can generate a fresh ast from it that is executeable in right order in less then 1 ms
+- Just learned that there is something called web bundle which is even more bad again while i like the idea to define a standard to upload bundels
+- the main problem with web bundels is that they exist already the best format for web Bundels is the so called rollup Chunk Type it has all
+- needed glue code and you can generate a fresh ast from it that is executeable in right order in less then 1 ms
 
 ## How?!
 ECMAScript is a wrong understood as a language when applyed to glue code in a expressiv way without abusiv use it is a Highly Expressiv Incremental
