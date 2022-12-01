@@ -1,4 +1,4 @@
-### Hi there 👋
+### Hi there 👋 i am the founder of @component-manager
 
 If you want to know more about me see: https://github.lemanschik.com/profile or https://github.com/lemanschik/profile
 
