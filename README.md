@@ -23,6 +23,9 @@ So a good mix of Hardware and Language Implementation knowleg paired with years 
 - Code gets even more often readed Programatical
 - Code builds more often then used 
 - Code Caching is always something that needs to get implemented per Project no good existing structures for shared Open Source Builds.
+  - Just learned that there is something called web bundle which is even more bad again while i like the idea to define a standard to upload bundels
+  - the main problem with web bundels is that they exist already the best format for web Bundels is the so called rollup Chunk Type it has all
+  - needed glue code and you can generate a fresh ast from it that is executeable in right order in less then 1 ms
 
 ## How?!
 ECMAScript is a wrong understood as a language when applyed to glue code in a expressiv way without abusiv use it is a Highly Expressiv Incremental
