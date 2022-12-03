@@ -3,6 +3,9 @@
 I write the build tools and compilers that other should use while they do not do so. I also author books that no one did read or will read.
 I do it so that when i am dead i can look back and say i knowed it better.
 
+Founder and Next Thinker of Projects like: Web 4.0, components-manager (a universal component manager that even works online in a browser), next gen chromium / nodejs / electron / graalvm builds and the platforms as also soon inventor of the web-modules standard and the new WInterCG which joins WICG
+with WinterCG Into WInterCG to build a foundation for the Web 4.0 which runs on any platform that implements ESModules so near every ESHost that you can think of. 
+
 ## Why?
 I am a Senior Level Dev with over 30 years of Expirence and understood from history that LUA was one of the most amazing production drivers
 in many Native Code Projects now i see ECMAScript + Type Annotations Proposal as the Leading replacement for Python LUA and PHP.
