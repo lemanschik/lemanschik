@@ -14,7 +14,7 @@ https://codewithrockstar.com
 ![img](https://codewithrockstar.com/media/wallpaper/vim_hater_preview.png)
 
 
-
+## writter of the stuff after 0xAA55 ....
 
 
 ## Why?
