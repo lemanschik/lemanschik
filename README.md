@@ -7,7 +7,7 @@ Founder and Next Thinker of Projects like: Web 4.0, components-manager (a univer
 with WinterCG Into WInterCG to build a foundation for the Web 4.0 which runs on any platform that implements ESModules so near every ESHost that you can think of. 
 
 
-## Certificated Rockstar Programmer !!! do not mess with my l33t h40r...
+## Certificated Rockstar Programmer !!! do not mess with my l33t h4x0r5175...
 https://codewithrockstar.com
 
 ![img](https://codewithrockstar.com/media/wallpaper/ui_ux_wallpaper_preview.png)
