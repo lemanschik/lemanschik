@@ -13,7 +13,7 @@ https://codewithrockstar.com
 ![img](https://codewithrockstar.com/media/wallpaper/ui_ux_wallpaper_preview.png)
 ![img](https://codewithrockstar.com/media/wallpaper/vim_hater_preview.png)
 
-
+review on youtube: https://www.youtube.com/watch?v=fZDa1LezwOU
 ## writter of the stuff after 0xAA55 ....
 
 
