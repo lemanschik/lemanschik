@@ -14,6 +14,11 @@ Founder and Next Thinker of Projects like: Web 4.0, components-manager (a univer
     - MSON written in JS
     - Python => ECMAScript Converter. for Python deprecation net wide. 
     - Adapter tool chains for all kinds of languages and package management systems. 
+ - Performance and optimization of internals
+   - KVM Stack 
+   - XEN Stack
+   - Open Stack
+   - VMM / VM Hardware Interfaces for multiple architecturs of chips as also data bus types and streams. 
 
 ## Books
 - [simplicity made easy via ECMAScript Hosts](https://github.com/lemanschik/simplicity-made-easy)
