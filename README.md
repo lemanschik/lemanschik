@@ -2,7 +2,7 @@
 I write the build tools and compilers that other should use while they do not do so. I also author books that no one did read or will read.
 I do it so that when i am dead i can look back and say i knowed it better.
 
-Founder and Next Thinker of Projects like: Web 4.0, components-manager (a universal component manager that even works online in a browser), next gen chromium / nodejs / electron / graalvm builds and the platforms as also soon inventor of a web-modules standard that turns your web browser and all connected peers into a world wide distributed build grid with Persistent RAM. Makes you cloud indipendent in fact every PC that you use is a own cloud/domain/server/identity Provider.
+Founder and Next Thinker of Projects like: Web 4.0, components-manager (a universal component manager that even works online in a browser), next gen chromium / nodejs / electron / graalvm builds and the platforms, Setter of standards for the Web 4.0 like the web-modules standard that shows your how to use your web browser and all connected peers like a world wide distributed build grid with Persistent RAM. Makes you cloud indipendent in fact every PC that you use is a own cloud/domain/server/identity Provider.
 
 ## Current Projects
 - Alignments
