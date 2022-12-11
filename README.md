@@ -6,7 +6,7 @@ Founder and Next Thinker of Projects like: Web 4.0, components-manager (a univer
 
 ## Current Projects
 - Alignments
-  - Fuchsia OS, Android OS, Linux, WSL3.0
+  - Fuchsia OS, Android OS, LaCrOS, Chromium OS, Linux, WSL3.0
   - NPM, PNP, ECMAScriptModules, 
   - Chromium, WPE, WInterOP
   - Online Editors and DevTools as also Operator Tools. Automation Instrumentation Debugging.
