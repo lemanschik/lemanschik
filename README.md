@@ -11,6 +11,10 @@ Founder and Next Thinker of Projects like: Web 4.0, components-manager (a univer
   - Chromium, WPE, WInterOP
   - Online Editors and DevTools as also Operator Tools. Automation Instrumentation Debugging.
   - Compiler tooling and build tooling
+    - Low Level Optimizations to take the best out of:
+      - The NasaASM Stack partial rewritten where it is usefull to ECMAScript.
+      - The GNU Stack partial rewritten where it is usefull to ECMAScript.
+      - The LLVM Stack partial rewritten where it is usefull to ECMAScript.
     - MSON written in ECMAScript
     - GN & Ninja written in ECMAScript
     - Python => ECMAScript Converter. for Python deprecation net wide. 
