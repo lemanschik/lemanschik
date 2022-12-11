@@ -19,6 +19,8 @@ Founder and Next Thinker of Projects like: Web 4.0, components-manager (a univer
    - XEN Stack
    - Open Stack
    - VMM / VM Hardware Interfaces for multiple architecturs of chips as also data bus types and streams. 
+   - V8
+   - GraalVM
 
 ## Books
 - [simplicity made easy via ECMAScript Hosts](https://github.com/lemanschik/simplicity-made-easy)
