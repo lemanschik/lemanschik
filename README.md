@@ -4,6 +4,17 @@ I do it so that when i am dead i can look back and say i knowed it better.
 
 Founder and Next Thinker of Projects like: Web 4.0, components-manager (a universal component manager that even works online in a browser), next gen chromium / nodejs / electron / graalvm builds and the platforms as also soon inventor of a web-modules standard that turns your web browser and all connected peers into a world wide distributed build grid with Persistent RAM. Makes you cloud indipendent in fact every PC that you use is a own cloud/domain/server/identity Provider.
 
+## Current Projects
+- Alignments
+  - Fuchsia OS, Android OS, Linux, WSL3.0
+  - NPM, PNP, ECMAScriptModules, 
+  - Chromium, WPE, WInterOP
+  - Online Editors and DevTools as also Operator Tools. Automation Instrumentation Debugging.
+  - Compiler tooling and build tooling
+    - MSON written in JS
+    - Python => ECMAScript Converter. for Python deprecation net wide. 
+    - Adapter tool chains for all kinds of languages and package management systems. 
+
 ## Books
 - [simplicity made easy via ECMAScript Hosts](https://github.com/lemanschik/simplicity-made-easy)
 
