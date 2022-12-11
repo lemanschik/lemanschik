@@ -11,7 +11,8 @@ Founder and Next Thinker of Projects like: Web 4.0, components-manager (a univer
   - Chromium, WPE, WInterOP
   - Online Editors and DevTools as also Operator Tools. Automation Instrumentation Debugging.
   - Compiler tooling and build tooling
-    - MSON written in JS
+    - MSON written in ECMAScript
+    - GN & Ninja written in ECMAScript
     - Python => ECMAScript Converter. for Python deprecation net wide. 
     - Adapter tool chains for all kinds of languages and package management systems. 
  - Performance and optimization of internals
