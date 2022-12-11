@@ -18,7 +18,8 @@ fizzBuzz by the creator of Rockstar Live:
 
 review on youtube: 
 - https://www.youtube.com/watch?v=fZDa1LezwOU
-## writter of the stuff after 0xAA55 ....
+
+## writer of the stuff after 0xAA55 ....
 
 
 ECMAScript is a wrong understood as a language when applyed to glue code in a expressiv way without abusiv use it is a Highly Expressiv Incremental
