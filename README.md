@@ -24,6 +24,11 @@ I earn my money as private consulatant for software creating depending companys 
 
 Founder and Next Thinker of Projects like: Web 4.0, components-manager (a universal component manager that even works online in a browser), next gen chromium / nodejs / electron / graalvm builds and the platforms, Setter of standards for the Web 4.0 like the web-modules standard that shows your how to use your web browser and all connected peers like a world wide distributed build grid with Persistent RAM. Makes you cloud indipendent in fact every PC that you use is a own cloud/domain/server/identity Provider.
 
+The most big issues with npm can be seen in my book why you should switch away from nodejs and npm
+
+
+
+
 ## Current Projects
 - Alignments
   - Fuchsia OS, Android OS, LaCrOS, Chromium OS, Linux, WSL3.0, BSD, Mach Kernel (MacOS).
