@@ -9,6 +9,7 @@ V8 is an advanced, modern operating system designed to make cloud and desktop co
 - Chromium NodeJS Compat High Performance NodeJS Replacement directly Chromium based runs even in your current browser if it is modern.
 - Chromium IDL a Interface definition Language based on ECMAScript Compatible Syntax. As also Implementation patterns and workflows for Polyglot Code.
   - Build anything anywhere even your own Mega Cloud Computer or CPU.
+- Containerised Hybrid Operating systems for developers and Hackers that use the best and most efficent upgrading strategies for all Linux BSD Mach OS  Distributions. Maintainance guides for Large Cloud infrastructures.
 
 I earn my money as private consulatant for software creating depending companys that want to improve build, development, security audit and deployment as also operational processes to be able to faster iterate over the software that they create as also help them to obtain data needed to imrpove the software. In general i Help them to reduce the overall Software needed to archive the same goals and reduce overall Development and Projects cost by minimum of 10x. I can make such claims even for the most modern Projects on earth. From cloudflare till microsoft cloud challange me if i can not deliver you get all for free but should i deliver i get 1 year 80% of your calculated savings as i take all the risks.
 
