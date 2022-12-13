@@ -2,6 +2,8 @@
 I write the build tools and compilers that other should use while they do not do so. I also author books that no one did read or will read.
 I do it so that when i am dead i can look back and say i knowed it better.
 
+I earn my money as private consulatant for software creating depending companys that want to improve build and development processes to be able to faster iterate over the software that they create as also help them to obtain data needed to imrpove the software. In general i Help them to reduce the overall Software needed to archive the same goals and reduce overall Development and Projects cost by minimum of 10x. I can make such claims even for the most modern Projects on earth. From cloudflare till microsoft cloud challange me if i can not deliver you get all for free but should i deliver i get 1 year 80% of your calculated savings as i take all the risks. 
+
 - I mainly like efficent simple reuseable code patterns the real efficent once.
 - I hate State creating state without a need is like obfusication of code. 
 - I design Api's that let you create more simple code for your Browser. 
