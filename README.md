@@ -2,9 +2,16 @@
 I write the build tools and compilers that other should use while they do not do so. I also author books that no one did read or will read.
 I do it so that when i am dead i can look back and say i knowed it better.
 
+V8 is an advanced, modern operating system designed to make cloud and desktop computing faster, safer, and more reliable than ever before. It offers a wide range of features, such as a modern user interface, high performance, advanced security, and a robust set of applications. V8 also provides an easy-to-use platform for developing and running applications, both on desktops and mobile devices. With its advanced capabilities, V8 is an ideal choice for anyone looking to get the most out of their computer. We turned V8 with some additions into B8G Big Engine the most advanced Net Wide Cloud Operating system the first of its kind. 
+
+## Main Products
+- Chromium WebRTC Platform a Chromium Server Implementation with more then high performance Offers Remote and Local Gui / Desktop Interfaces if wanted fully remote and local debug able.
+- Chromium NodeJS Compat High Performance NodeJS Replacement directly Chromium based runs even in your current browser if it is modern.
+- Chromium IDL a Interface definition Language based on ECMAScript Compatible Syntax. As also Implementation patterns and workflows for Polyglot Code.
+  - Build anything anywhere even your own Mega Cloud Computer or CPU.
+
 I earn my money as private consulatant for software creating depending companys that want to improve build, development, security audit and deployment as also operational processes to be able to faster iterate over the software that they create as also help them to obtain data needed to imrpove the software. In general i Help them to reduce the overall Software needed to archive the same goals and reduce overall Development and Projects cost by minimum of 10x. I can make such claims even for the most modern Projects on earth. From cloudflare till microsoft cloud challange me if i can not deliver you get all for free but should i deliver i get 1 year 80% of your calculated savings as i take all the risks.
 
-V8 is an advanced, modern operating system designed to make cloud and desktop computing faster, safer, and more reliable than ever before. It offers a wide range of features, such as a modern user interface, high performance, advanced security, and a robust set of applications. V8 also provides an easy-to-use platform for developing and running applications, both on desktops and mobile devices. With its advanced capabilities, V8 is an ideal choice for anyone looking to get the most out of their computer. We turned V8 with some additions into B8G Big Engine the most advanced Net Wide Cloud Operating system the first of its kind. 
 
 - I mainly like efficent simple reuseable code patterns the real efficent once.
 - I hate State creating state without a need is like obfusication of code. 
