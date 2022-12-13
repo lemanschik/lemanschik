@@ -9,6 +9,7 @@ I do it so that when i am dead i can look back and say i knowed it better.
 - I learned to hate tools i see most of the easy to use tools as sympthom of the bad code we created in the past.
 - I try to identifie antipatterns that other call best practices as this practices lead us to the problems that we already got they are fundamental wrong.
 - I Try to spread the word that Databases are hurting us and that they where invented only to solve cache issues on slow spinning disks 
+- I understand git more well then most of the tools combined and i would have understood it even more fast if there where no tools and it would get shared as packaging design fundamentals for projects. 
 
 Founder and Next Thinker of Projects like: Web 4.0, components-manager (a universal component manager that even works online in a browser), next gen chromium / nodejs / electron / graalvm builds and the platforms, Setter of standards for the Web 4.0 like the web-modules standard that shows your how to use your web browser and all connected peers like a world wide distributed build grid with Persistent RAM. Makes you cloud indipendent in fact every PC that you use is a own cloud/domain/server/identity Provider.
 
