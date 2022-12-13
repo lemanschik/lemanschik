@@ -2,6 +2,13 @@
 I write the build tools and compilers that other should use while they do not do so. I also author books that no one did read or will read.
 I do it so that when i am dead i can look back and say i knowed it better.
 
+I mainly like efficent simple reuseable code patterns the real efficent once.
+I hate State creating state without a need is like obfusication of code. 
+I design Api's that let you create more simple code for your Browser. 
+I design deployment and build processes for next gen builds that run anywhere. 
+I learned to hate tools i see most of the easy to use tools as sympthom of the bad code we created in the past.
+I try to identifie antipatterns that other call best practices as this practices lead us to the problems that we already got they are fundamental wrong.
+
 Founder and Next Thinker of Projects like: Web 4.0, components-manager (a universal component manager that even works online in a browser), next gen chromium / nodejs / electron / graalvm builds and the platforms, Setter of standards for the Web 4.0 like the web-modules standard that shows your how to use your web browser and all connected peers like a world wide distributed build grid with Persistent RAM. Makes you cloud indipendent in fact every PC that you use is a own cloud/domain/server/identity Provider.
 
 ## Current Projects
