@@ -30,6 +30,7 @@ The most big issues with npm can be seen in my book why you should switch away f
 
 
 ## Current Projects
+- mainly working on git for the web at present as there exist no real git implementation with web concepts.
 - Alignments
   - Fuchsia OS, Android OS, LaCrOS, Chromium OS, Linux, WSL3.0, BSD, Mach Kernel (MacOS).
   - NPM, PNP, ECMAScriptModules, 
