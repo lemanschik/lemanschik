@@ -4,6 +4,10 @@ I do it so that when i am dead i can look back and say i knowed it better.
 
 V8 is an advanced, modern operating system designed to make cloud and desktop computing faster, safer, and more reliable than ever before. It offers a wide range of features, such as a modern user interface, high performance, advanced security, and a robust set of applications. V8 also provides an easy-to-use platform for developing and running applications, both on desktops and mobile devices. With its advanced capabilities, V8 is an ideal choice for anyone looking to get the most out of their computer. We turned V8 with some additions into B8G Big Engine the most advanced Net Wide Cloud Operating system the first of its kind. Forget about anything that you know about Creating Cross Platform Software and run it at Scale even on day 3 cost is reduced to a never seen rational compared to other Solutions. Run your twitch, Twitter, amazon compatible cloud directly from your laptop and cache it for free on a user-based CDN it automatically scales and syncs with your user base.
 
+## Maybe Importent writeups
+- https://github.lemanschik.com/why-you-should-switch-away-from-npm-nodejs/
+
+
 ## Main Products
 - Chromium WebRTC Platform a Chromium Server Implementation with more then high performance Offers Remote and Local Gui / Desktop Interfaces if wanted fully remote and local debug able.
 - Chromium NodeJS Compat High Performance NodeJS Replacement directly Chromium based runs even in your current browser if it is modern.
