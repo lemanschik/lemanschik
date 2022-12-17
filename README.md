@@ -1,6 +1,5 @@
 ### Founder of @component-manager
-I write the build tools and compilers that other should use while they do not do so. I also author books that no one did read or will read.
-I do it so that when i am dead i can look back and say i knowed it better.
+Hi my name is Frank Lemanschik i design fundamentals and concepts as also supply the vision for the next Microsoft/Google Aiming for total world domination in the cloud sector.
 
 V8 is an advanced, modern operating system designed to make cloud and desktop computing faster, safer, and more reliable than ever before. It offers a wide range of features, such as a modern user interface, high performance, advanced security, and a robust set of applications. V8 also provides an easy-to-use platform for developing and running applications, both on desktops and mobile devices. With its advanced capabilities, V8 is an ideal choice for anyone looking to get the most out of their computer. We turned V8 with some additions into B8G Big Engine the most advanced Net Wide Cloud Operating system the first of its kind. Forget about anything that you know about Creating Cross Platform Software and run it at Scale even on day 3 cost is reduced to a never seen rational compared to other Solutions. Run your twitch, Twitter, amazon compatible cloud directly from your laptop and cache it for free on a user-based CDN it automatically scales and syncs with your user base.
 
