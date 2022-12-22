@@ -9,12 +9,12 @@
   - The B8G Runtime includes B8G Cloud Runtime and is a Internal Only Tech only offerd as SaaS. 
 
 ### Working on
-Cloud First Component Manager and System for Desktop and Headless Instances of DIREKTSPEED Cloud a Chromium driven Cloud Stack.
-- @component-manager/cloud
-Cloud Build tools and ide's
-- @unlicense-code/editor
-AI Models for Advanced Code Compilation
-- Not Open Source but see notes in Stealify DIREKTSPEED internal uses the Stealify Lang Compiler and a variaty of AI Models to optimize builds and software analyzes running on DIREKTSPEED Cloud. 
+- Cloud First Component Manager and System for Desktop and Headless Instances of DIREKTSPEED Cloud a Chromium driven Cloud Stack.
+  - @component-manager/cloud
+- Cloud Build tools and ide's
+  - @unlicense-code/editor
+- AI Models for Advanced Code Compilation
+  - Not Open Source but see notes in Stealify DIREKTSPEED internal uses the Stealify Lang Compiler and a variaty of AI Models to optimize builds and software analyzes running on DIREKTSPEED Cloud. 
 
 
 DIREKTSPEED Cloud is an advanced, modern operating system designed to make cloud and desktop computing faster, safer, and more reliable than ever before. It offers a wide range of features, such as a modern user interface, high performance, advanced security, and a robust set of applications. DIREKTSPEED Cloud also provides an easy-to-use platform for developing and running applications, both on desktops and mobile devices. With its advanced capabilities, V8 is an ideal choice for anyone looking to get the most out of their computer. We turned V8 with some additions into B8G Big Engine the most advanced Net Wide Cloud Operating system the first of its kind. Forget about anything that you know about Creating Cross Platform Software and run it at Scale even on day 3 cost is reduced to a never seen rational compared to other Solutions. Run your twitch, Twitter, amazon compatible cloud directly from your laptop and cache it for free on a user-based CDN it automatically scales and syncs with your user base.
