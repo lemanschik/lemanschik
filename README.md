@@ -2,6 +2,7 @@
 ![img](https://upload.wikimedia.org/wikipedia/commons/6/6a/Chromium_11_Wordmark_Logo.svg)
 
 ## Tutorial 
+- Test Docker Wasm https://docs.docker.com/desktop/wasm/
 - how to use DIREKTSPEED Cloud with your Existing Google collab Notebooks via 
   - The DIREKTSPEED Cloud Chrome Extension needs Chromium Extension Manifest Compatible Browser.
   - NodeJS vis the @direktspeed/cloud cli and module needs current chromium installed
