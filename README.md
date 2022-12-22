@@ -1,6 +1,13 @@
 # Team
 ![img](https://upload.wikimedia.org/wikipedia/commons/6/6a/Chromium_11_Wordmark_Logo.svg)
 
+## Tutorial 
+- how to use DIREKTSPEED Cloud with your Existing Google collab Notebooks via 
+  - The DIREKTSPEED Cloud Chrome Extension needs Chromium Extension Manifest Compatible Browser.
+  - NodeJS vis the @direktspeed/cloud cli and module needs current chromium installed
+  - Vert.x / ES4X In your Java / NODEJS GraalVM Quarkus Applications 
+  - The B8G Runtime includes B8G Cloud Runtime and is a Internal Only Tech only offerd as SaaS. 
+
 ### Working on
 Cloud First Component Manager and System for Desktop and Headless Instances of DIREKTSPEED Cloud a Chromium driven Cloud Stack.
 - @component-manager/cloud
