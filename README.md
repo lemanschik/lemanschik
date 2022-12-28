@@ -1,6 +1,9 @@
 # Team
 ![img](https://upload.wikimedia.org/wikipedia/commons/6/6a/Chromium_11_Wordmark_Logo.svg)
-Architectural Efforts, Standards, Language Interop, Generic Environment Agnostic Platform to create Cross Platform Applications.
+Architectural Efforts, Standards, Language Interop, Generic Environment Agnostic Platform to create Cross Platform Applications, Compiler Optimization, 
+
+Main Focus: 
+ESHost based Lanaguage Implementation Framework and Compiler Feedback Interfaces. To Easy Integrate and Launch Watch Polyglot Code on the Stack that Composes Chromium Platforms. As Also Capability and Isolation Security Concepts. Optimizing API's for Shared Memory and File Interop via Handel based Protocols also making Fundamentals to make a more Development Frindly MOJO Replacement based on V8 it self and the justjs runtime example demo showing the cpp function template call pattern to generate a generic v8/eshost based Module System for the Platform.
 
 ## Tutorial 
 - Test Docker Wasm https://docs.docker.com/desktop/wasm/
