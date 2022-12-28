@@ -1,5 +1,6 @@
 # Team
 ![img](https://upload.wikimedia.org/wikipedia/commons/6/6a/Chromium_11_Wordmark_Logo.svg)
+Architectural Efforts, Standards, Language Interop, Generic Environment Agnostic Platform to create Cross Platform Applications.
 
 ## Tutorial 
 - Test Docker Wasm https://docs.docker.com/desktop/wasm/
