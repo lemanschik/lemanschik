@@ -5,6 +5,9 @@ Architectural Efforts, Standards, Language Interop, Generic Environment Agnostic
 Main Focus: 
 ESHost based Lanaguage Implementation Framework and Compiler Feedback Interfaces. To Easy Integrate and Launch Watch Polyglot Code on the Stack that Composes Chromium Platforms. As Also Capability and Isolation Security Concepts. Optimizing API's for Shared Memory and File Interop via Handel based Protocols also making Fundamentals to make a more Development Frindly MOJO Replacement based on V8 it self and the justjs runtime example demo showing the cpp function template call pattern to generate a generic v8/eshost based Module System for the Platform.
 
+Leading the effort to Implement all Chromium Platform Components and Modules via a Stealify IDL written for the chromium Platform Build that supports the current used build tools eg: GN+NINJA+MESON+CMAKE+PYTHON ..... And turn them all into a Declarativ Uinified Language and later replace them with our own
+Stack Complete.
+
 ## Tutorial 
 - Test Docker Wasm https://docs.docker.com/desktop/wasm/
 - how to use DIREKTSPEED Cloud with your Existing Google collab Notebooks via 
