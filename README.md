@@ -1,5 +1,9 @@
 # Team
 ![img](https://upload.wikimedia.org/wikipedia/commons/6/6a/Chromium_11_Wordmark_Logo.svg)
+Lead Engineer behind Chromium VE (VirtualEnvironments) a proxmox like virtual environment based on the chromium platform stack and architecture.
+Using Stealify Lang to deliver code bespratices and security out of the box no matter which Languages your using to compose your Applications.
+Allows you to reuse Polyglot Code as Modules that Run in any browser Compatible Environment...... 
+
 Architectural Efforts, Standards, Language Interop, Generic Environment Agnostic Platform to create Cross Platform Applications, Compiler Optimization, 
 
 Main Focus: 
