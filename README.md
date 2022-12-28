@@ -12,6 +12,13 @@ ESHost based Lanaguage Implementation Framework and Compiler Feedback Interfaces
 Leading the effort to Implement all Chromium Platform Components and Modules via a Stealify IDL written for the chromium Platform Build that supports the current used build tools eg: GN+NINJA+MESON+CMAKE+PYTHON ..... And turn them all into a Declarativ Uinified Language and later replace them with our own
 Stack Complete.
 
+## Main Missinterpretation of information that is written here
+Stealify Lang Modules to not expose something that gets loaded they expose something that is already loaded!
+That makes them also Diffrent fundamental from ECMAScript Modules which assume the fetch load instantion flow. 
+While Stealify Language Modules can get handled in a fetch load instantion flow the flow it self is not a core concept
+of stealify as stealify represents static compiled resources. Thats also why they got a own extension while the syntax in general is
+ECMAScript Compatible und the Assumption that the Runtime Offers all needed Interfaces. Stealify modules can be more seen as ECMAScript Runtime BuildIn Modules that get imported via a chose able reference that allows you to rename and map symbols to better express your Application that you compose... 
+
 ## Tutorial 
 - Test Docker Wasm https://docs.docker.com/desktop/wasm/
 - how to use DIREKTSPEED Cloud with your Existing Google collab Notebooks via 
