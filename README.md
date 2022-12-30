@@ -20,6 +20,7 @@ of stealify as stealify represents static compiled resources. Thats also why the
 ECMAScript Compatible und the Assumption that the Runtime Offers all needed Interfaces. Stealify modules can be more seen as ECMAScript Runtime BuildIn Modules that get imported via a chose able reference that allows you to rename and map symbols to better express your Application that you compose... 
 
 ## Goals Archived by the effort
+- Implements Linux VFS Interface as ESModule designed to work with opfs as interop layer.
 - Can Build Linux & Chromium Multi Arch in Any Browser via virtual cpu instructions and wasm. 
 - Language Implementation framework support eg: Stealify Lang 
   - Faster Experiments Easyer transformation into components composed out of modules that get called via cpp function template that throws a isolate into them. see: just-js 
