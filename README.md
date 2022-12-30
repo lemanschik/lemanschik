@@ -19,6 +19,18 @@ While Stealify Language Modules can get handled in a fetch load instantion flow 
 of stealify as stealify represents static compiled resources. Thats also why they got a own extension while the syntax in general is
 ECMAScript Compatible und the Assumption that the Runtime Offers all needed Interfaces. Stealify modules can be more seen as ECMAScript Runtime BuildIn Modules that get imported via a chose able reference that allows you to rename and map symbols to better express your Application that you compose... 
 
+## Goals Archived by the effort
+- Can Build Linux & Chromium Multi Arch in Any Browser via virtual cpu instructions and wasm. 
+- Language Implementation framework support eg: Stealify Lang 
+  - Faster Experiments Easyer transformation into components composed out of modules that get called via cpp function template that throws a isolate into them. see: just-js 
+  - Polyglot Language => Nativ BuiltIn module JIT. 
+  - even more frindly then Torque Lang and can create Domain Related Lang => Torque
+- WebRTC Shared Build Network drop in replacement for goma and gerrit
+  - Can cache net wide build results for faster loading and distribution no additional storage needed.
+  - Advanced partial checkout support via git worktrees combined out of directory based branches. 
+  - Faster Incremental Rolling Builds less tooling overhead
+
+
 ## Tutorial 
 - Test Docker Wasm https://docs.docker.com/desktop/wasm/
 - how to use DIREKTSPEED Cloud with your Existing Google collab Notebooks via 
