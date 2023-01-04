@@ -1,4 +1,4 @@
-# leamnschik/lemanschik/whatIf/twitch-would-be-like-tiktok
+# lemanschik/lemanschik/whatIf/twitch-would-be-like-tiktok
 Can Twitch Be Like Tik Tok? Short Answer is YES.
 
 ## Features Needed
