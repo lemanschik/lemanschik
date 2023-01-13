@@ -12,7 +12,8 @@ LLVM Logo Place Holder cover not designed.
 ## Lead Engineer behind @component-manager 
 Lead Engineer behind @component-manager a cloud hypervisor for the web as also 
 
-Using Stealify Lang to deliver code bespratices and security out of the box no matter which Languages your using to compose your Applications.
+## Creator of Stealify Lang
+Stealify Lang can help you to deliver code bespratices and security out of the box no matter which Languages your using to compose your Applications.
 Allows you to reuse Polyglot Code as Modules that Run in any browser Compatible Environment...... 
 
 Architectural Efforts, Standards, Language Interop, Generic Environment Agnostic Platform to create Cross Platform Applications, Compiler Optimization, 
