@@ -4,7 +4,8 @@
 | ---| --- | --- |
 ![img](https://upload.wikimedia.org/wikipedia/commons/f/f1/Heart_coraz%C3%B3n.svg) | | ![img](https://www.debian.org/logos/openlogo.svg) ![img](https://llvm.org/img/LLVM-Logo-Derivative-3.png) ![img](https://upload.wikimedia.org/wikipedia/commons/4/47/Emscripten_logo.svg) ![img](https://upload.wikimedia.org/wikipedia/commons/6/6a/Chromium_11_Wordmark_Logo.svg) ![img](https://upload.wikimedia.org/wikipedia/commons/thumb/f/fc/Mesa_layers_of_crap_2016.svg/1920px-Mesa_layers_of_crap_2016.svg.png)
 
-Lead Engineer behind Chromium VE (VirtualEnvironments) a proxmox like virtual environment but also offering everything that open stack or the open cloud fundation offers out of the box based on the chromium platform stack and architecture.
+Lead Engineer behind @component-manager a cloud hypervisor for the web.
+
 Using Stealify Lang to deliver code bespratices and security out of the box no matter which Languages your using to compose your Applications.
 Allows you to reuse Polyglot Code as Modules that Run in any browser Compatible Environment...... 
 
@@ -59,12 +60,9 @@ DIREKTSPEED Cloud is an advanced, modern operating system designed to make cloud
 - https://github.lemanschik.com/why-you-should-switch-away-from-npm-nodejs/
 
 ## Main Products
-- Chromium WebRTC Platform a Chromium Server Implementation with more then high performance Offers Remote and Local Gui / Desktop Interfaces if wanted fully remote and local debug able.
-- Chromium NodeJS Compat High Performance NodeJS Replacement directly Chromium based runs even in your current browser if it is modern.
-- Chromium IDL a Interface definition Language based on ECMAScript Compatible Syntax. As also Implementation patterns and workflows for Polyglot Code.
-  - Build anything anywhere even your own Mega Cloud Computer or CPU.
-- Containerised Hybrid Operating systems for developers and Hackers that use the best and most efficent upgrading strategies for all Linux BSD Mach OS  Distributions. Maintainance guides for Large Cloud infrastructures.
+- https://dspeed.eu/componenet-manager A Cloud Hypervisor that works in the browser.
 
+Customer Support:
 I earn my money as private consulatant for software creating depending companys that want to improve build, development, security audit and deployment as also operational processes to be able to faster iterate over the software that they create as also help them to obtain data needed to imrpove the software. In general i Help them to reduce the overall Software needed to archive the same goals and reduce overall Development and Projects cost by minimum of 10x. I can make such claims even for the most modern Projects on earth. From cloudflare till microsoft cloud challange me if i can not deliver you get all for free but should i deliver i get 1 year 80% of your calculated savings as i take all the risks.
 
 - I mainly like efficent simple reuseable code patterns the real efficent once.
