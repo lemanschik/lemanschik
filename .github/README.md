@@ -2,8 +2,7 @@
 
 | Emotional State | - | Product |
 | ---| --- | --- |
-![img](https://upload.wikimedia.org/wikipedia/commons/f/f1/Heart_coraz%C3%B3n.svg) | | ![img](https://upload.wikimedia.org/wikipedia/commons/6/6a/Chromium_11_Wordmark_Logo.svg)
-![img](https://upload.wikimedia.org/wikipedia/commons/f/f1/Heart_coraz%C3%B3n.svg) | | ![img](https://upload.wikimedia.org/wikipedia/commons/thumb/9/9d/Ubuntu_logo.svg/600px-Ubuntu_logo.svg.png)
+![img](https://upload.wikimedia.org/wikipedia/commons/f/f1/Heart_coraz%C3%B3n.svg) | | ![img](https://www.debian.org/logos/openlogo.svg) ![img](https://llvm.org/img/LLVM-Logo-Derivative-3.png) ![img](https://upload.wikimedia.org/wikipedia/commons/4/47/Emscripten_logo.svg) ![img](https://upload.wikimedia.org/wikipedia/commons/6/6a/Chromium_11_Wordmark_Logo.svg) ![img](https://upload.wikimedia.org/wikipedia/commons/thumb/f/fc/Mesa_layers_of_crap_2016.svg/1920px-Mesa_layers_of_crap_2016.svg.png)
 
 Lead Engineer behind Chromium VE (VirtualEnvironments) a proxmox like virtual environment but also offering everything that open stack or the open cloud fundation offers out of the box based on the chromium platform stack and architecture.
 Using Stealify Lang to deliver code bespratices and security out of the box no matter which Languages your using to compose your Applications.
