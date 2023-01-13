@@ -6,7 +6,7 @@
 
 ## Author Dragon Book 3rd Ed.
 Author of the Dragon Book - Compilers Principles and Tooling 3rd Edition 2024 - the White Dragon Book.
-![img](https://llvm.org/img/LLVMWyvernSmall.png)
+![img](https://llvm.org/img/LLVMWyvernSmall.png)<br />
 LLVM Logo Place Holder cover not designed.
 
 ## Lead Engineer behind @component-manager 
