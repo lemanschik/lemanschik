@@ -2,7 +2,7 @@
 
 | Emotional State | - | Product |
 | ---| --- | --- |
-![img](https://upload.wikimedia.org/wikipedia/commons/f/f1/Heart_coraz%C3%B3n.svg) | | ![img](https://www.debian.org/logos/openlogo.svg) ![img](https://llvm.org/img/LLVM-Logo-Derivative-3.png) ![img](https://upload.wikimedia.org/wikipedia/commons/4/47/Emscripten_logo.svg) ![img](https://upload.wikimedia.org/wikipedia/commons/6/6a/Chromium_11_Wordmark_Logo.svg) ![img](https://upload.wikimedia.org/wikipedia/commons/thumb/f/fc/Mesa_layers_of_crap_2016.svg/1920px-Mesa_layers_of_crap_2016.svg.png)
+<img src="https://upload.wikimedia.org/wikipedia/commons/f/f1/Heart_coraz%C3%B3n.svg" width="100"></img> <img src="https://www.debian.org/logos/openlogo.svg" width="100"></img> <img src="https://llvm.org/img/LLVM-Logo-Derivative-3.png" width="100"></img><img src="https://upload.wikimedia.org/wikipedia/commons/4/47/Emscripten_logo.svg" width="100"></img><img src="https://upload.wikimedia.org/wikipedia/commons/6/6a/Chromium_11_Wordmark_Logo.svg" width="100"></img> ![img](https://upload.wikimedia.org/wikipedia/commons/thumb/f/fc/Mesa_layers_of_crap_2016.svg/1920px-Mesa_layers_of_crap_2016.svg.png)
 
 ## Author Dragon Book 3rd Ed.
 Author of the Dragon Book - Compilers Principles and Tooling 3rd Edition 2024 - the White Dragon Book.
