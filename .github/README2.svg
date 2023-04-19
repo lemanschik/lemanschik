@@ -1,27 +1,29 @@
-<svg fill="none" viewBox="0 0 600 300" width="600" height="300" xmlns="http://www.w3.org/2000/svg">  
+<svg fill="none" viewBox="0 0 600 300" width="600" height="300" xmlns="http://www.w3.org/2000/svg">
   <foreignObject width="100%" height="100%">
     <div xmlns="http://www.w3.org/1999/xhtml">
-    <style>
-@import url(https://fonts.googleapis.com/css?family=Lato);
-html, body {
-margin:0px;
-padding:0px;
--webkit-font-smoothing:antialiased;
-font-family:"Lato",sans-serif;
-font-weight:300;
-font-size:15px;
-line-height:1.2;
-background-color: #FF3B30;
+      <style>
+        @import url(https://fonts.googleapis.com/css?family=Lato);
+    .container {
+      width: 100%;
+      height: 100%;
+      margin:0px;
+      padding:0px;
+      -webkit-font-smoothing:antialiased;
+      font-family:&quot;Lato&quot;,sans-serif;
+      font-weight:300;
+      font-size:10px;
+      line-height:1.2;
+      background-color: #FF3B30;
 text-shadow: rgba(0, 0, 0, 0.247059) 0px 7px 15px;
 }
-#you {
+.you {
 font-size: 90px;
 font-weight: bold;
 }
-#abilitytocreate {
+.abilitytocreate {
 font-size: 50px;
 }
-#anything {
+.anything {
 font-size: 150px;
 color: #f7f7f7;
 font-weight: bold;
@@ -38,32 +40,28 @@ text-shadow: 0 1px 0 #ccc,
  0 10px 10px rgba(0,0,0,.2),
  0 20px 20px rgba(0,0,0,.15);
 }
-::selection {
+.selection {
 background: #FF3A2D;
 color: #f7f7f7;
 }
-
-::-moz-selection {
-background: #FF3A2D;
-color: #f7f7f7;
-}
-
-::-webkit-selection {
-background: #FF3A2D;
-color: #f7f7f7;
-}
-</style>
-<center>
-<br/><br/><br/><br/><br/><br/>
-
-<div id="you">YOU</div>
-
-  <div id="abilitytocreate">HAVE THE ABILITY TO CREATE</div>
-
-<div id="anything">ANYTHING</div>
- 
-  <div id="abilitytocreate">WITH ADDVENGERS</div>
-<div id="you">E-CONSULTING</div>
+      </style>
+      <div class="container">
+        <div class="you">
+          YOU
+        </div>
+        <div class="abilitytocreate">
+          HAVE THE ABILITY TO CREATE
+        </div>
+        <div class="anything">
+          ANYTHING
+        </div>
+        <div class="abilitytocreate">
+          Stealify Lang
+        </div>
+        <div class="you">
+          https://dspeed.eu/
+        </div>
+      </div>
     </div>
   </foreignObject>
 </svg>
