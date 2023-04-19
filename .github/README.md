@@ -8,5 +8,5 @@ only if you create a index.html with the following content
 note most best do not close the body the agencyAdoption algo will do so for you in your browser we want to stream some content
 it keeps the dom clean if you do not close it but sure if you want to do so do so. It will still work. But cats will die. Your Responsble.
 <div style="width: 100%;">
-  <img src="./github/README.svg" style="width: 100%;" alt="Click to see the source">
+  <img src="./.github/README.svg" style="width: 100%;" alt="Click to see the source">
 </div>
