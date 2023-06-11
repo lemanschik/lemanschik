@@ -37,12 +37,6 @@ Searchability got identified as the bottleneck for the worldwide scale of knowle
 (Important note from 2023 ChatGPT did not improve on that without the right prompt you will
 never get the right answer) It was clear without the right question the right answers will not come up
 
-Reversing Stackoverflow It was created in 2008 by Jeff Atwood and Joel Spolsky and connects Questions to Answers we were tracking the answers
-we did know a lot of correct answers by this time and invested in scanning for occurrences and indicators
-for the right answers (not the chosen accepted correct answers)
-
-Finding the right questions. And build frameworks and SDKs out of it. 
-
 Declarative rules procedural programming. Almost any program and application was at last in production
 in need of batch procedures to maintain it in production. 
 
@@ -52,6 +46,12 @@ the LAMP Stack got born which lead to bitnami XAMPP you name it.
 
 ## Step 2 - September 2008 
 The German market as a Nativ German I was interested in taking over the local market via technical outperforming competitors using the ability of software generation based on predefined generators and rules.
+
+Reversing Stackoverflow It was created in 2008 by Jeff Atwood and Joel Spolsky and connects Questions to Answers we were tracking the answers
+we did know a lot of correct answers by this time and invested in scanning for occurrences and indicators
+for the right answers (not the chosen accepted correct answers)
+
+Finding the right questions. And build frameworks and SDKs out of it. 
 
 The V8 assembler is based on the Strongtalk assembler. Strongtalk is a Smalltalk environment with optional static typing support. Strongtalk can make some compile time checks, and offer stronger type safety guarantees; this is the source of its name. It is non-commercial, though it was originally a commercial project developed by a small startup company named LongView Technologies (trading as Animorphic Systems)
 
