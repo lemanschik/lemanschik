@@ -72,7 +72,7 @@ example as also lay the foundation for Chromium Virtual Environments a complete 
 platform to cross-compile it with the help of wasm and wasix for Multiple Architectures directly in a Browser
 or WInterOp Environment like NodeJS or Deno.
 
-## 2023 and the feature?
+## 2023 and the future features?
 Writing code for multiple platforms in ASM is faceable and possible via our own Chromium LLM
 It contains the Chromium Language understanding and grasp. And now leads to even faster iterations
 we expect the next generation of Chromium to be maybe as accessible to new developers as also
