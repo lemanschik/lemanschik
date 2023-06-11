@@ -82,3 +82,6 @@ never seen capabilities and scheduling tasks on such a gigantic computer is high
 
 ## Takeaways
 We do not allocate what we create. When implementing a language VM, there are several choices on how to implement the runtime and standard library. We have tried many different approaches over the years: handwritten assembly, C++, self-hosted (i.e., using JavaScript), and more. With V8 Torque implemented via Stealify Lang which is a DSL Implementation Framework, we now have our domain-specific language to write ECMAScript and WASIX Compatible built-in Components that do offer nativ system capabilities exposed as zero cost fast call-able handles with buildIn Typesafty and Security.
+
+This also allows us to make WASIX more productive via Offering Additional WASM Posix with direct bindings to nativ posix standard api's
+that you can use like any other posix system interactive and none interactive. This closes the missing gap and gives us AwesomeOS.
