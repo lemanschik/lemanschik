@@ -24,6 +24,7 @@ export unpkg = (specifier, options) => fetch(new URL(specifier,registryUrl).then
      )
   }
 )
+// can also be sha384
 // resulting handels allow us to do ${pkgReference}::${hex} keys that map to ${sha512 of the content if hex does not represent that already}
 // the resulting tar will always be the same so lets store the tar layout only. to speedup tar creation.
 // https://www.npmjs.com/package/@dfns/datamodel/v/5.37.1/index
