@@ -80,8 +80,23 @@ Oldschool Assembler warrios. Combined with our research from 2016 was mainly abo
 algorithms to optimize infrastructure at scale via infrastructure simulation to study resource management and scheduling policies. Needed for Web 4.0 which is for obvious reasons a gigantic mega pc with
 never seen capabilities and scheduling tasks on such a gigantic computer is highly complex.
 
+## Updates mid 2023
+I veryfied a lot of my AI Research whith a peer group called "IRL Alpha" "AI Church" on twitch. It is composed out of Web 3.0
+Insiders and discusses AI Topics highly recommended content. Anyway i did mostly work on 
+- PouchDB Internals (CouchDB && Sync implemented in ECMAScript)
+- Rollup Bundler (Interop with promises as dynamic import for rollup builds in the browser and WInterOP Environments)
+  - why rollup? It is a subset of the acorn ecmascript parser specialised on import export and sideEffect detection
+  - why rollup? Good instruction based builds that can fix Environment dependend legacy code.
+- comming up with rules for WInterOP Builds.
+  - require needs to get import('./relativePath') or import from './relativePath'
+  - absolutePathes always need to get transpiled to relative path
+  - inlining none computed dynamic imports is always used when rollup is used to fix the code
+  - you do not need to use rollup for none inlining builds.
+  - never import isomorphic code refactor it to indipendent entrypoints.
+  - link your fetch worker to the opfs it is better then the cache storage.
+  
 ## Takeaways
 We do not allocate what we create. When implementing a language VM, there are several choices on how to implement the runtime and standard library. We have tried many different approaches over the years: handwritten assembly, C++, self-hosted (i.e., using JavaScript), and more. With V8 Torque implemented via Stealify Lang which is a DSL Implementation Framework, we now have our domain-specific language to write ECMAScript and WASIX Compatible built-in Components that do offer nativ system capabilities exposed as zero cost fast call-able handles with buildIn Typesafty and Security.
 
 This also allows us to make WASIX more productive via Offering Additional WASM Posix with direct bindings to nativ posix standard api's
-that you can use like any other posix system interactive and none interactive. This closes the missing gap and gives us AwesomeOS.
+that you can use like any other posix system interactive and none interactive. This closes the missing gap and gives us AwesomeOS which is mainly the successor of NodeOS.
