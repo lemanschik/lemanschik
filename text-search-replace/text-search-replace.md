@@ -5,10 +5,17 @@ Getes exported with a Isomorphic shaped Interface compatible to TransformStream 
 Rollup Plugin. 
 
 ```ts
+const searchReplace = import('./text-search-replace/text-search-replace.js').then(({ modify }) => modify({ 
+  "search": "replace",
+}))
 
-import('./text-search-replace/text-search-replace.js').then(({ modify }) => new TransformStream(modify({ "search": "replace" })))
+const codeTransformStream = new TransformStream({
+  transform(text,task) {
+    const modify = await searchReplace;
+    task.enqueue(modify(text));
+  }
+})
 
-rollupDefineConfig({ plugins: [
-  (await import('./text-search-replace/text-search-replace.js')).modify({ "search": "replace" })
-] })
+// Note that the plugins array supports type Promise so dynamic import is fine.
+rollupDefineConfig({ plugins: [searchReplace] })
 ```
