@@ -28,3 +28,5 @@ window.addEventListener('message',(ev)=>{
 ```
 
 both sides implement the broadcast channel api and use the postmessage only to bridge to the broadcast channel for easyer debbugging
+
+That allows to implement functions by answering questions related to what, who, when, where, why, and how.
