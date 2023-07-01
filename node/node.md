@@ -1,3 +1,17 @@
+## Importent notes
+NodeJS depends on curl anyway and curl anyway on bash so the smallest denominator between oprating systems is
+bash script + git followed by nodejs and npm packages.
+
+use allways relativ pathes and or import maps do not depend on node resolve.
+
+always install node_modules flat and install them with a clear version tag if you use eg semver
+
+```
+see: https://www.npmjs.com/package/semver
+import me from 'name-v15' // npm:name@^15.2.0
+
+```
+
 # NodeJS
 
 Use the repl in module mode
