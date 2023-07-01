@@ -20,6 +20,11 @@ EOF
 ```
 
 ## Some Additional tricks with vscode as example for a legacy app
+
+
+## --import[] and --require[]
+Allows to inject code before intrensics are frozen. 
+
 ## NPM Trick
 creating the following file makes always your current directory the global prefix
 
