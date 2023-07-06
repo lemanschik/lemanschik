@@ -1,5 +1,7 @@
 /** Easy to Use Wrapper around Quaternion DB */
 
+
+
 // channel.send(data)
 // data; may be a string, a Blob, an ArrayBuffer, a TypedArray or a DataView object.
 
@@ -68,19 +70,29 @@ const labels = {
         };
     },
     httpString(/** @type {RTCDataChannel} */ datachannel) {
+        // For current spec read https://www.rfc-editor.org/rfc/rfc9110#name-field-order
         datachannel.onmessage = (httpString) => {
             const [requestHead, ...body] = httpString.split('\r\n\r\n');
             const [requestLine, ...headerLines] = requestHead.split('\n');
-            const [method, path, httpVersion] = requestLine.trim().split(' ');
-            const headers = headerLines.filter(
+            const [method, pathname, httpVersion] = requestLine.trim().split(' ');
+            
+            // [[headerName,content], [headerName,content]]
+            const arrayHeaders = headerLines.filter(
                 (notUndefined) => notUndefined
             ).map(
                 (line) => line.split(':').map((part) => part.trim())
             ).map(
                 ([name, ...rest]) => [name, rest.join(' ')]
             );
+            const getHeaderByName = (headerName="") => arrayHeaders.find(
+                ([name=""]) => name.toLowerCase() === headerName
+            )[1];
             
-            return { method,path,httpVersion,headers,body };
+            const url = new URL(pathname, `http://${getHeaderByName('host')}`)
+            
+            // const rawHeaders = arrayHeaders.flatten();
+            
+            return { method,pathname,httpVersion, url/*rawHeaders*/, arrayHeaders, body };
         }
     }
 };
