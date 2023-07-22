@@ -1,0 +1,24 @@
+{
+  "name": "OPVFS based Virtual Environments",
+  "description": "Origin Private - Virtual File System (OPVFS)",
+  "manifest_version": 3,
+  "version": "1.5.1",
+  "devtools_page": "devtools_page.html",
+  "content_scripts": [{
+      "matches": [
+        "https://*/*",
+        "http://localhost/*",
+        "http://0.0.0.0/*",
+        "http://127.0.0.1/*"
+      ],
+      "run_at": "document_idle",
+      "js": ["content_script.js"]
+  }],
+  "background": {
+    "service_worker": "background/service_worker.js"
+  },
+  "icons": {
+    "48": "icon48.png",
+    "128": "icon128.png"
+  }
+}
