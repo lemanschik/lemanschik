@@ -1,0 +1,61 @@
+{
+  "id": "web:components",
+  "title": "Components",
+  "description": "Create components using popular libraries and frameworks.",
+  "templates": [
+    {
+      "title": "React.js",
+      "files": [
+        {
+          "filename": "App.jsx",
+          "content": "export default function App() {\n   return <div>Hello world</div>;\n}"
+        }
+      ]
+    },
+    {
+      "title": "React.js w/TypeScript",
+      "files": [
+        {
+          "filename": "App.tsx",
+          "content": "export default function App() {\n   return <div>Hello world</div>;\n}"
+        }
+      ]
+    },
+    {
+      "title": "React Native",
+      "files": [
+        {
+            "filename": "App.jsx",
+            "content": "import { StyleSheet, Text, View } from \"react-native\";\n\nexport default function App() {\n   return (\n      <View>\n         <Text style={styles.text}>Hello world 🎉</Text>\n      </View>\n   );\n}\n\nconst styles = StyleSheet.create({\n   text: {\n      fontWeight: \"bold\",\n      fontSize: \"1.5rem\",\n      marginVertical: \"1em\",\n      textAlign: \"center\"\n   }\n});"
+        }
+      ]
+    },
+    {
+      "title": "Vue.js",
+      "files": [
+        {
+          "filename": "App.vue",
+          "content": "<template>\n  <p>{{ greeting }} World!</p>\n</template>\n\n<script>\nexport default {\n  data() {\n    return {\n      greeting: 'Hello'\n    }\n  }\n}\n</script>\n\n<style>\nbody {\n  font-family: sans-serif;\n}\n</style>\n\n"
+        }
+      ]
+    },
+    {
+      "title": "Svelte",
+      "files": [
+        {
+          "filename": "App.svelte",
+          "content": "<script>\nlet name = \"world\";\n</script>\n\n<h1>Hello {name}!</h1>"
+        }
+      ]
+    },
+    {
+      "title": "Svelte w/TypeScript",
+      "files": [
+        {
+          "filename": "App.svelte",
+          "content": "<script lang=\"ts\">\nlet name: string = \"world\";\n</script>\n\n<h1>Hello {name}!</h1>"
+        }
+      ]
+    }
+  ]
+}

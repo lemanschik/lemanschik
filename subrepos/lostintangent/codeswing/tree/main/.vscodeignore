@@ -1,0 +1,12 @@
+.github/**
+.vscode/**
+src/**
+.gitignore
+**/tsconfig.json
+**/.eslintrc.json
+**/*.map
+**/*.ts
+node_modules
+webpack.config.js
+templates
+
