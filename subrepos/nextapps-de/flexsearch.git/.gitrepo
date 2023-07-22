@@ -1,0 +1,12 @@
+; DO NOT EDIT (unless you know what you are doing)
+;
+; This subdirectory is a git "subrepo", and this file is maintained by the
+; git-subrepo command. See https://github.com/stealify/git-subrepo#readme
+;
+[subrepo]
+	remote = https://github.com/nextapps-de/flexsearch.git
+	branch = master
+	commit = 1243fd883ec3aa6113a22919d2cad334cd006c80
+	parent = c72abb2be8cd75aed67cbae0b039ee78e4e599fa
+	method = merge
+	cmdver = 0a31831
