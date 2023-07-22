@@ -1,0 +1,18 @@
+{
+	"registrations": [
+		{
+			"component": {
+				"type": "git",
+				"git": {
+					"name": "redhat-developer/vscode-java",
+					"repositoryUrl": "https://github.com/redhat-developer/vscode-java",
+					"commitHash": "7a770ab6750b4b09173d98de14eb9792e3432b36"
+				}
+			},
+			"license": "MIT",
+			"description": "This grammar was derived from https://github.com/atom/language-java/blob/master/grammars/java.cson.",
+			"version": "1.21.0"
+		}
+	],
+	"version": 1
+}
