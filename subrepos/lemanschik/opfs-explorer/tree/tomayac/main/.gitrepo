@@ -1,0 +1,12 @@
+; DO NOT EDIT (unless you know what you are doing)
+;
+; This subdirectory is a git "subrepo", and this file is maintained by the
+; git-subrepo command. See https://github.com/stealify/git-subrepo#readme
+;
+[subrepo]
+	remote = https://github.com/lemanschik/opfs-explorer
+	branch = tomayac/main
+	commit = 3a25f3c8b2cb17a3a4f14e54541eedbcc162ff0b
+	parent = 97b02984e4627872d3cb86e442e319b2e0434ebd
+	method = merge
+	cmdver = 0a31831
