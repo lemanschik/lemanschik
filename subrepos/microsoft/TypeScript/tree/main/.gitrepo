@@ -4,7 +4,7 @@
 ; git-subrepo command. See https://github.com/stealify/git-subrepo#readme
 ;
 [subrepo]
-	remote = TypeScript
+	remote = https://github.com/microsoft/TypeScript
 	branch = main
 	commit = 2ac22c1a0fc2be77ab2982cd15ec88cde98c9b21
 	parent = e66846aabbf9d756de4df20088f1c4b2c66eba1b
