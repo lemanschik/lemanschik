@@ -1,3 +1,10 @@
+## Tracking Proposals
+- [ ] https://github.com/tc39/proposal-float16array - b16float for nativ ML Training and SafeTensor Format.
+- [ ] https://github.com/tc39/proposal-type-annotations - Avoid writing Type Annotations as JSDOC Comment
+- [ ] 
+
+## Other Stuff
+
 ```mermaid
 pie title Awesome OS Status
     "FileSystem" : 80
