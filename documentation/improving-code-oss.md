@@ -17,3 +17,11 @@ npx -p node@18.15 -p yarn -p node-gyp yarn
 npx -p node@18.15 -p yarn -p node-gyp -p gulp yarn gulp vscode-web-min
 ```
 
+
+## WebRTC Backends
+opfs sync as extension for the current file system or open editor files
+
+## Make OPFS layer the default Layer
+The OPFS alows us to open system folders on chromium and isolate them this way. As also virtual mount and so on.
+
+
