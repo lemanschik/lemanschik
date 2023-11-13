@@ -31,3 +31,6 @@ Get-WmiObject Win32_Processor or gwmi win32_Processor
   
   asset native/pty.node 47.1 KiB [emitted] (auxiliary id hint: vendors) needs replacement by node/repl
 
+## Remote design failures
+To Remote into nodejs the repl module is ideal you connect it via a websocket and call it a day. this gives you ssl connection encryption and also work transport agnostic
+you can also use ssh and the cli to get the same repl  also maybe the use of xterm.js is a failure that is shared with code-oss. 
