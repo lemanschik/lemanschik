@@ -1,5 +1,6 @@
 <pre>
 <!-- The above code lets us directly render this /documentation/documentation.md as text markd ingnores this on github -->
+
 # Development Patterns 
 This aims to give you a grasp of Well Executed Code Maintainance at scale.
 
