@@ -1,5 +1,7 @@
 <pre>
-<!-- The above code lets us directly render this /documentation/documentation.md as text markd ingnores this on github -->
+
+<!-- The above code lets us directly render this /documentation/documentation.md as text markd ingnores this on github </pre> -->
+
 
 # Development Patterns 
 This aims to give you a grasp of Well Executed Code Maintainance at scale.
@@ -35,3 +37,7 @@ so in let us say the Kernel.
 
 In Large Applications, the Code execution is not the problem the bottleneck is most time the IO Boundary so efficient IO Structures
 do exponential speed up any code no matter what kind of.
+
+```js
+console.dir() // is your frind
+```
