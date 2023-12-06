@@ -10,3 +10,5 @@ Applyed research from legendary teacher legend "Vera F. Birkenbihl" and other gr
 Trying to finsih general intelegent learnining algorythms and strategies for information verification. 
 
 biggest blocker is that the world at present depends on marketing and lies so feeding in internet information alone without filtering it is deadly.
+
+trying to implement Respect and Authority in a none harmfull way.
