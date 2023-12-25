@@ -16,7 +16,7 @@ globalThis.addEventListener('fetch', (event) => {
 
 if ("serviceWorker" in navigator) {
   navigator.serviceWorker
-    .register(cacheName+".js")
+    .register("./"+cacheName+".js")
     .then((registration) => {
       registration.addEventListener("updatefound", () => {
         // If updatefound is fired, it means that there's
