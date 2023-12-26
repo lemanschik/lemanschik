@@ -1,8 +1,7 @@
 const isServiceWorkerContext = !globalThis.window;
 const cacheName = "https-terminal";
-isServiceWorkerContext) &&
 // cache first so the sender can drain.
-globalThis.addEventListener('fetch', (event) => {
+isServiceWorkerContext && globalThis.addEventListener('fetch', (event) => {
   event.respondWith(caches.open(cacheName).then((cache) =>
     cache.match(event.request).then((cacheResponse) =>
       cacheResponse ? cacheResponse :
@@ -14,24 +13,30 @@ globalThis.addEventListener('fetch', (event) => {
   ))
 });
 
-if ("serviceWorker" in navigator) {
-  navigator.serviceWorker
-    .register("./"+cacheName+".js")
-    .then((registration) => {
-      registration.addEventListener("updatefound", () => {
-        // If updatefound is fired, it means that there's
-        // a new service worker being installed.
-        const installingWorker = registration.installing;
-        console.log(
-          "A new service worker is being installed:",
-          installingWorker,
-        );
+// activate navigationPreload API.
+isServiceWorkerContext && globalThis.addEventListener("activate", (event) => {
+  event.waitUntil(globalThis.registration?.navigationPreload?.enable() || Promise.resolve());
+});
 
-        // You can listen for changes to the installing service worker's
-        return new Promise(resolve=>(installingWorker.onstatechange = () => resolve(installingWorker));
+// Installation & Update LifeCycle 
+if ("serviceWorker" in navigator) {
+navigator.serviceWorker.register("./"+cacheName+".js").then(
+  (registration) => registration.addEventListener("updatefound", () => {
+      const installingWorker = registration.installing;
+      console.log(
+        "A new service worker is being installed:",
+        installingWorker,
+      );
+      // You can listen for changes to the installing service worker's
+      //return new Promise(resolve=>(installingWorker.onstatechange = () => resolve(installingWorker));
+      navigator.serviceWorker.ready.then(
+        (registration) => registration.navigationPreload.getState()
+      ).then((state) => {
+        console.log(state.enabled); // boolean
+        console.log(state.headerValue); // string
+        
       });
-    })
-    .catch((error) => {
+    })).catch((error) => {
       console.error(`Service worker registration failed: ${error}`);
     });
 } else {
