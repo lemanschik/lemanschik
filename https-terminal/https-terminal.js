@@ -1,10 +1,26 @@
 const isServiceWorkerContext = !globalThis.window;
 const cacheName = "https-terminal";
+
+//https://gist.github.com/jakearchibald/d0b7e65496a8ec362f10739c3e28da6e
+const mergeResponses = async (
+  responsePromises = [Promise.resolve(new Response())], 
+  headers = new Headers()
+) => new Response(new ReadableStream({ async start(controller) {
+  for await (const response of responsePromises) {
+    await response.body.pipeTo(new WritableStream({
+      write: (data) => controller.enqueue(data)
+    }));
+  }
+}}),{
+  headers: headers.has("Content-Type") ? headers : (await responsePromises[0]).headers
+});
+
+
 // cache first so the sender can drain.
 isServiceWorkerContext && globalThis.addEventListener('fetch', (event) => {
   event.respondWith(caches.open(cacheName).then((cache) =>
     cache.match(event.request).then((cacheResponse) =>
-      cacheResponse ? cacheResponse :
+      cacheResponse || mergeResponses([]) ||
       fetch(event.request).then((networkResponse) => {
         cache.put(event.request, networkResponse.clone());
         return networkResponse;
