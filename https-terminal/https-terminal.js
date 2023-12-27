@@ -1,6 +1,3 @@
-const isServiceWorkerContext = !globalThis.window;
-const cacheName = "https-terminal";
-
 //https://gist.github.com/jakearchibald/d0b7e65496a8ec362f10739c3e28da6e
 const mergeResponses = async (
   responsePromises = [Promise.resolve(new Response())], 
@@ -16,18 +13,31 @@ const mergeResponses = async (
 });
 
 
+const isServiceWorkerContext = !globalThis.window;
+const cacheName = "https-terminal";
+const cachePromise = caches.open(cacheName);
+
+const renderTerminal => event => event.respondWith(mergeResponses([
+  caches.match('/article-top.include'),
+  fetch(includeURL).catch(
+    () => caches.match('/article-offline.include')
+  ),
+  caches.match('/article-bottom.include')
+]).then(({done, response})=>{
+  event.waitUntil(done);
+  return response;
+}));
+
 // cache first so the sender can drain.
-isServiceWorkerContext && globalThis.addEventListener('fetch', (event) => {
-  event.respondWith(caches.open(cacheName).then((cache) =>
-    cache.match(event.request).then((cacheResponse) =>
-      cacheResponse || mergeResponses([]) ||
-      fetch(event.request).then((networkResponse) => {
-        cache.put(event.request, networkResponse.clone());
-        return networkResponse;
-      }) 
-    )
-  ))
-});
+isServiceWorkerContext && globalThis.addEventListener('fetch', (event) =>
+  cachePromise.then((cache) => cache.match(event.request).then(async (cacheResponse) =>
+ cacheResponse ||
+ await event.preloadResponse ||      
+ fetch(event.request).then((networkResponse) => {
+   cache.put(event.request, networkResponse.clone());
+   return networkResponse;
+ }) 
+)));
 
 // activate navigationPreload API.
 isServiceWorkerContext && globalThis.addEventListener("activate", (event) => {
