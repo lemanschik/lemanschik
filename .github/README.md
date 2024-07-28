@@ -1,7 +1,8 @@
 ## Tracking Proposals
 - [ ] https://github.com/tc39/proposal-float16array - b16float for nativ ML Training and SafeTensor Format.
 - [ ] https://github.com/tc39/proposal-type-annotations - Avoid writing Type Annotations as JSDOC Comment
-- [ ] 
+    - Implementations
+    - [ ] https://github.com/nodejs/node/pull/53725
 
 ## Other Stuff
 
