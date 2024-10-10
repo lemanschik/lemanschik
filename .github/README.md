@@ -3,6 +3,8 @@
 - [ ] https://github.com/tc39/proposal-type-annotations - Avoid writing Type Annotations as JSDOC Comment
     - Implementations
     - [ ] https://github.com/nodejs/node/pull/53725
+- [ ] CodeOss ESM Extensions via Source Maps.
+   - [ ] TODO: Write a good explainer what why who and where and when like enables costimization of codeOss without rebuilding so can run multiple instances with diffrent Settings. Nothing needs to be more easy code costumizeable as the IDE!
 
 ## Other Stuff
 
