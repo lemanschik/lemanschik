@@ -1,9 +1,9 @@
 ## Tracking Proposals
-- [ ] https://github.com/tc39/proposal-float16array - b16float for nativ ML Training and SafeTensor Format.
+- [x] Stage 3 - https://github.com/tc39/proposal-float16array - b16float for nativ ML Training and SafeTensor Format.
 - [ ] https://github.com/tc39/proposal-type-annotations - Avoid writing Type Annotations as JSDOC Comment
     - Implementations
-    - [ ] https://github.com/nodejs/node/pull/53725
-- [ ] CodeOss ESM Extensions via Source Maps.
+        - [ ] https://github.com/nodejs/node/pull/53725 --experimental-strip-types
+- [ ] Stage 2 Typescript ESM Compatible build got introduced 01.10.2024 - CodeOss ESM Extensions via Source Maps.
    - [ ] TODO: Write a good explainer what why who and where and when like enables costimization of codeOss without rebuilding so can run multiple instances with diffrent Settings. Nothing needs to be more easy code costumizeable as the IDE!
 
 ## Other Stuff
