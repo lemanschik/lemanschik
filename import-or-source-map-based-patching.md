@@ -12,7 +12,8 @@ Many Software gets PreBuild often intermediate Source formats get used aka Frame
 - ...... Many more need more time to find the correct description as it is a Fundamental change to use existing Software as Is and Modify it even multiple times diffrerently.
 
 
-## HistoryIn 2014, when the ECMAScript Modules (ESM) standard emerged, I knew instantly that this was a game-changer for the world of software development. Having been deeply entrenched in development pipelines and build support utilities for years, I saw the evidence that this new standard could streamline the often chaotic landscape of JavaScript development. But my journey into the world of open-source software had started much earlier.
+## History
+In 2014, when the ECMAScript Modules (ESM) standard emerged, I knew instantly that this was a game-changer for the world of software development. Having been deeply entrenched in development pipelines and build support utilities for years, I saw the evidence that this new standard could streamline the often chaotic landscape of JavaScript development. But my journey into the world of open-source software had started much earlier.
 
 Since the early 2000s, I’ve been immersed in the open-source community. My first encounter was with PHP and Apache, where I quickly transitioned from learning to contributing, focusing on developing Content Management Systems (CMS) and Database Management solutions. These early experiences revealed a fundamental truth to me: software development, even at its simplest, is fraught with challenges. Version incompatibility was rampant, and what seemed like small details could become monumental obstacles. The lack of standardization and the fractured ecosystem meant that even straightforward projects could spiral into complexity.
 
