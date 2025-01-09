@@ -2,7 +2,7 @@
 
 What i do:  I pursues research on Applied Artificial Intelligence (AAI) techniques.
 
-What we research:  We are mainly studying Natural Language Processing (NLP) and Multimodal Systems.
+What we research:  I am mainly studying Natural Language Processing (NLP) and Multimodal Systems.
 Code Based Compression (CBC).
 
 Research Topics: Large Language Model, Vision-Language Model, Machine Translation, and Dependency Parsing, Benchmarking, Bayesian optimization, Linear Regression,
