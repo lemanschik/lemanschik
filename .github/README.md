@@ -11,7 +11,22 @@ Data Structures and Compression, Compilers and Coding Language Design, Education
 ## Under the AwesomeOS Umbrella 
 - Training of tiny self improving LM's
 - Multi Agent System Training and Alignment via Recursion and tool calling 
-- Using Stealify Lang as Compressed Representation of data that gets Generated and not persisted. 
+- Using Stealify Lang as Compressed Representation of data that gets Generated and not persisted.
+- QuaternionFS QuaternionDB MultiDimensional Rotatable data Stored in Stealify Lang.
+- NNC Neuronal Network Compression.
+
+### Research 2024
+- How to Implement ICL (In Context Learning) without retraining the existing LLM
+- How to Implement Large Context Models.
+- Model Destillation.
+- Test Suite for logical Reasoning about my Own Research Topics.
+- LLM Routing in MoE Systems
+- Model Merging
+- False Assumptions about LLM's and how they work from the InnerSide Found Facts
+   - Dataset creation did show that we need to add none relevant data to even overwrite and correct reasoning failures Franks claim of "we can not controll what comes out but we can control what goes in" Does apply
+   - Training a existing LLM is like finding what it likes most and then use that part of the "m_head" and attach new Data to it distributed in a way that it outweights the existing false data.
+     - Similar to the incontext learning effects that take place when the right mixiture of none related data that is needed to prefix the real data. 
+
 
 # Older Readme
 
