@@ -1,3 +1,20 @@
+# Introduction
+
+What i do:  I pursues research on Applied Artificial Intelligence (AAI) techniques.
+
+What we research:  We are mainly studying Natural Language Processing (NLP) and Multimodal Systems.
+Code Based Compression (CBC).
+
+Research Topics: Large Language Model, Vision-Language Model, Machine Translation, and Dependency Parsing, Benchmarking, Bayesian optimization, Linear Regression,
+Data Structures and Compression, Compilers and Coding Language Design, Education of Coders, Social and General Physical Economy.
+
+## Under the AwesomeOS Umbrella 
+- Training of tiny self improving LM's
+- Multi Agent System Training and Alignment via Recursion and tool calling 
+- Using Stealify Lang as Compressed Representation of data that gets Generated and not persisted. 
+
+# Older Readme
+
 ### The Evolution and Legacy of AwesomeOS  
 
 The journey of AwesomeOS began with a focus on hosting and distribution, addressing the high costs of such services by offering generic, cost-effective alternatives. This approach catalyzed the development of proprietary Content Management and Delivery Systems, which became widely adopted in the most-viewed content industry on the internet—its identity easily deduced by excluding search engines, encyclopedias, and text-based services from [this list](https://en.wikipedia.org/wiki/List_of_most_visited_websites).
