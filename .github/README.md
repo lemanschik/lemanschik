@@ -15,6 +15,15 @@ Data Structures and Compression, Compilers and Coding Language Design, Education
 - QuaternionFS QuaternionDB MultiDimensional Rotatable data Stored in Stealify Lang.
 - NNC Neuronal Network Compression.
 
+### Research 2025
+- LCM Large Context Models as Retriver
+- LLM Security
+- Self Correction via ReEnforcment ICL Learning.
+- External Grounding.
+- Multi S-Lora
+- Triton vLLM and llama.cpp Inference Tuning and Sharding as also Chunking Batches.
+- Inference Memory Optimization.
+
 ### Research 2024
 - How to Implement ICL (In Context Learning) without retraining the existing LLM
 - How to Implement Large Context Models.
