@@ -431,3 +431,25 @@ p. 861, l. -8	Remove the comma after "local".	Gyun Woo	2/18/08
 p. 865, l. -2	"code in (b)" should be "code in (c)".	Gyun Woo	2/20/08
 p. 899, l. -15	Reference [6] should be [10].	Shih-Wei Liao	2/27/08
 p. 911, l. -14	The reference to Example 12.5 should be to Fig. 12.6.	Max Perepelitsyn	8/18/15
+
+
+Of course. A foundational text requires a clear lineage. To truly establish the "White Dragon Book" as the successor, we must first issue the conceptual errata for the era it replaces. The principles of the old "Dragon Book" are not merely incorrect in implementation; they are incorrect in their foundational assumptions.
+
+This document serves as that bridge. It is the official errata sheet, not for a specific printing, but for the entire paradigm of location-based, monolithic computation.
+
+---
+
+### **Conceptual Errata for the Age of Location-Based Computation**
+*(As superseded by The White Dragon Book: Principles of Isomorphic, Content-Addressable Computation)*
+
+**Note:** The following corrections are not to be applied to any single text, but to the entire architectural philosophy that has dominated computing for the last fifty years. The "Location" refers to the core concepts of that philosophy.
+
+| Location (Outdated Concept) | Problem | Correction |
+| :--- | :--- | :--- |
+| **Ch. 1: Introduction (The File)** | The foundational abstraction of a "file" (a named, mutable sequence of bytes at a specific location) is presented as a first principle. This axiom is the source of nearly all systemic complexity in modern software (e.g., version control, distribution, consistency). | The foundational abstraction is the **Object ID (OID)**, the hash of a block of content. Data is a verifiable, immutable, and globally addressable truth, not a mutable object in a specific location. Files are an ephemeral, high-level construct. |
+| **Ch. 10: File Systems** | The entire chapter describes systems for managing the location of data. Hierarchical paths (`/path/to/file`) are treated as the canonical way to organize and retrieve information. | This chapter is obsolete. Data is organized by its own structure via **Indirect Blocks** (metadata OIDs pointing to data OIDs). The system for managing data is a Merkle DAG, not a tree of mutable locations. Retrieval is addressing, not searching. |
+| **Ch. 7: Run-Time Environments (The Process)** | The "process" is defined as the primary unit of execution, with a rigid, heavyweight separation between kernel and user space. This necessitates complex and insecure mechanisms for IPC, context switching, and privilege management. | The universal atom of computation is the **lightweight, share-nothing Isolate**. There is no kernel/user boundary; there is only a graph of isolates with defined capabilities. Security is inherent to the model, not an added layer. |
+| **Ch. 6: Intermediate Code Generation (Pointers)** | Assumes a fundamental distinction between memory addresses, file descriptors, and network sockets as pointer types. This leads to costly serialization/deserialization and impedance mismatches between storage, memory, and network. | There is only one pointer type: the **OID**. It is a universal pointer that can resolve to data in local memory, on persistent storage, or on a remote node transparently. All communication is a zero-copy operation of passing an OID. |
+| **Ch. 11: Storage Management (Mutable State)** | The "state" of a system is defined as the current content of its mutable files and memory. Writes are destructive, in-place operations that are slow and lose all historical context. | The source of truth is a high-performance, **append-only transaction log**. The "current state" is a lazily materialized, copy-on-write cache of the log. Writes are instantaneous appends, and the entire history of the system is preserved and verifiable. |
+| **Ch. 1: Introduction to Compiling (The Binary)** | The ultimate goal of a compiler is defined as translating source code into a monolithic, platform-specific **executable binary**. This output is a static, opaque artifact. | The goal of the new compiler (the "Graph Composer") is to translate human intent into a new, verifiable **`commit` OID** in a universal knowledge graph. The output is a tiny set of new `indirect_blocks` that weave together existing immutable components. The code is a live, structural entity. |
+| **Entire Premise (Client/Server Architecture)** | The text implicitly assumes a world divided into distinct "client" and "server" machines, each with different roles and capabilities. | This distinction is obsolete. The Isomorphic Runtime ensures that every node is a peer in a global computational grid. Any device can source or sink computation and data transparently, dissolving the client/server dichotomy. |
