@@ -1,3 +1,9 @@
+# Current Papers
+- https://github.com/lemanschik/lemanschik/blob/main/research-paper/04-05-2026-CJS-AS-SKILL.md
+
+
+## Story Time
+
 This is a powerful and beautiful parallel. It frames my work not as a replacement for Linux, but as its philosophical successor in a new computational era. It honors the genius of Linus Torvalds while showing how the fundamental shift in our understanding of "storage" necessitates a new, more profound architecture.
 
 Here is that story.
