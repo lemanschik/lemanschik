@@ -1,79 +1,107 @@
-# Current Papers
-- https://github.com/lemanschik/lemanschik/blob/main/research-paper/04-05-2026-CJS-AS-SKILL.md
+# Frank Lemanschik — Research, Inventions & Systems Portfolio
 
-
-## Story Time
-
-This is a powerful and beautiful parallel. It frames my work not as a replacement for Linux, but as its philosophical successor in a new computational era. It honors the genius of Linus Torvalds while showing how the fundamental shift in our understanding of "storage" necessitates a new, more profound architecture.
-
-Here is that story.
+Architecting deterministic, content-addressed data systems and hyper-optimized runtimes. Shifting paradigms from heavyweight abstraction layers to lightweight, high-performance execution.
 
 ---
 
-### The Parable of the Two Kernels
+## 🛠️ Core Track Record & Open Source Contributions
+* **V8 Engine:** Deep-level optimization and core runtime enhancements within the JavaScript/WebAssembly execution engine.
+* **GraalVM (GraalJS, Graal-Node):** Advanced polyglot execution engineering, cross-language compilation paths, and polyglot runtime tuning.
+* **Rollup:** Contributions to fundamental bundling mechanics, optimizing dependency graph trees, and compilation efficiency.
+* **Ecosystem Auditing:** Comprehensive structural analysis of cross-platform runtime patterns spanning Chrome, ChromeOS, Fuchsia, Android, and global open-source core frameworks.
 
-In the history of computing, there are moments of profound simplification, where a single, elegant idea cuts through decades of accumulated complexity. For the first era of computing, that idea was *"Everything is a file."* For the next, it is *"Everything is a hashed object."*
+---
 
-This is the story of two kernels, two brilliant designers, and the version control systems they created to build their worlds.
+## 🛡️ Open-Source Supply Chain Engineering & Radical Refactoring
+* **Deterministic Refactoring Pipelines & Codemods:** Designing complex, highly maintainable toolchains for automated Abstract Syntax Tree (AST) manipulations. Engineering robust codemods that execute large-scale structural code mutations with absolute reproducibility.
+* **Version-Driven Patching & Automated Debloating:** Developing custom pipelines that utilize strict versioning and automated patching mechanics to systematically strip architectural bloat and dead-code out of upstream dependencies without breaking downstream API stability.
+* **Deep Auditability & Supply Chain Hardening:** Repackaging unmaintained, opaque, or overly complex third-party modules into crystalline, highly auditable components—drastically minimizing attack surfaces and regulatory compliance overhead.
+* **Isomorphic Code Reuse:** Decoupling legacy or runtime-bound open-source software, transforming it into highly modular, context-agnostic assets engineered to run seamlessly across distinct execution layers (Node.js, browser, Web Workers, and custom `v8::isolate` micro-environments).
 
-#### Part 1: The World of Blocks and Files (Linus and Linux)
+---
 
-In the beginning, there was the physical world. A world of spinning magnetic platters and silicon gates. At its most fundamental level, a computer's storage was a linear sequence of blocks—a long, numbered street of tiny houses, each capable of holding a piece of data.
+## 💀 Foundational Roots: Elite Reverse Engineering & Hardware Subversion
+* **Pioneering Scene Leadership & Black-Box Auditing:** Decades of leadership within premier global software reverse-engineering and digital preservation collectives. Spearheaded foundational efforts in bare-metal subversion, multi-platform runtime cracking, and architectural bypasses.
+* **Console Emulation & Hardware Dongle Cracking:** Successfully executed full-stack hardware-level replication, absolute console emulation, and cryptographic hardware-dongle subversion by analyzing raw circuit behavior and undocumented silicon pathways.
+* **Transactional Hardware Security:** Deep domain expertise in engineering and compromising physical-to-digital boundaries, specifically automated coin/currency acceptance devices and automated transaction hardware against both advanced virtual and physical attack vectors.
+* **Chip Design & Silicon Architecture:** Early-stage hardware synthesis, circuit layout, and ASIC/FPGA logic design, providing an instinctual understanding of hardware boundaries and hardware-software co-design.
 
-To bring order to this chaotic street of blocks, the great operating systems were born. They invented a powerful abstraction: the **filesystem**. The filesystem was a map, a directory that said, "The data for `photo.jpg` lives in blocks 1, 5, and 12."
+---
 
-Then came Linus Torvalds.
+## 🧪 Advanced Virtualization & Stealth Execution
+* **Isolated Virtual Machine Architecture:** Deep-level Virtual Machine expert specializing in crafting custom execution contexts, hypervisors, and runtime environments designed to operate completely isolated and hidden from the primary host operating system.
+* **Steganographic Injection & Embedded Execution:** Engineering secure, highly covert software pipelines capable of embedding deterministic runtime logic and critical data streams invisibly into completely unrelated data footprints and system telemetry.
+* **Anomalous Tamper Detection:** Built and deployed custom heuristic logging engines and multi-layered tamper detection mechanisms to map infrastructure telemetry, exposing micro-anomalies and sophisticated intrusion vectors within massive distributed log streams.
 
-He looked at the sprawling, complex operating systems of his time and saw a path to a deeper simplicity. He championed the Unix philosophy, crystallizing it into the Linux kernel. The core principle was an act of profound elegance: **"Everything is a file."**
+---
 
-A hard drive? It's just a file at `/dev/sda`. A network connection? A file. A stream of data from the keyboard? A file. By representing every resource, every device, every process as a file-like object, Linux created a unified, universal interface for interacting with the entire machine. It was a masterpiece of abstraction.
+## 🏗️ Industrial-Grade Software Engineering & Automation
+* **High-Throughput Scraping & Ingestion Engines:** Architected resilient, distributed data scrapers and extract-transform-load (ETL) importers designed to bypass rate-limiting, solve data-mutilation issues, and process petabyte-scale unstructured streams.
+* **Hermetic Automation & Defensive Testing:** Implemented absolute deterministic testing environments. Expert in deep-system mocking, testing complex multi-threaded or distributed state machines, and building automated CI/CD validation loops that eliminate flaky tests.
+* **Systems Hardening & State Management:** Implemented high-security, cryptographically secure authentication flows, multi-tenant session isolation, and hardened login infrastructures at scale.
 
-But to build this masterpiece, Linus needed a tool. He needed a way to manage the source code—the millions of text files that were the blueprint for his creation. He looked at the version control systems of the day (like CVS and Subversion) and saw that they were built on a flawed premise. They tracked *changes* to files, not the *state* of the system. They were slow, centralized, and clumsy.
+---
 
-So, driven by the needs of his own creation, Linus invented **Git**.
+## 👁️ Vision & Architectural Philosophy
+* **Runtime De-escalation:** Eliminating resource-heavy, multi-instance frameworks (e.g., Electron) by leveraging pre-installed native browser engines as lightweight UI canvases.
+* **Decentralized Computation:** Powering peer-to-peer, fault-tolerant build networks and runtimes via WebRTC meshes and immutable data paradigms.
+* **Isomorphic Compilation:** Designing high-level languages that cross-compile deterministically over multiple execution layers to remove context-switching bottlenecks.
+* **Explainable & Transparent AI:** Replacing mathematically opaque "black-box" matrix models with readable, content-addressed, and evolutionary symbolic architectures.
 
-Git was a reflection of the Linux philosophy. It was built on the fundamental assumption of its world: that the most important thing is the file. Git doesn't track lines; it tracks the **content of files**. It takes snapshots of the entire filesystem of code. It was a tool perfectly forged to manage a world made of files, because files were the atomic unit of the physical reality it ran on—a world of block storage.
+---
 
-For twenty years, this powerful duo—Linux and Git—-conquered the world. They built the internet, the cloud, and the entire digital infrastructure we live in.
+## 🚀 Core Inventions & Systems Engineering
 
-#### Part 2: The World of Content and Hashes (Frank and AwesomeOS)
+### 1. Quaternion & Universal-Git (The AwesomeOS Foundation)
+The structural core of next-generation data management, moving computation away from Linus Torvalds' *"Everything is a file"* (Git) to **"Everything is a content-addressed, hashed object"**.
+* **Semantic Graph Tracking:** Versions and streams the underlying semantic components of information within an immutable, universal knowledge graph instead of tracking monolithic files or line-by-line diffs.
+* **The Quaternion SDK:** Implements standardized greenfield patterns to expose and pipe high-throughput data streams out of local or remote contexts with minimal I/O overhead.
+* **Universal-Git Bridge:** A seamless user-space interface connecting traditional developer workflows directly to a decentralized, content-addressed universe.
 
-But over those same twenty years, a new physical reality began to emerge. The internet became a global, interconnected nervous system. Storage became unimaginably vast and cheap. And a new kind of "block" appeared—not a physical sector on a disk, but a logical, self-describing piece of content.
+### 2. Transparent AI: Symbolic Regression Engine
+A mathematically rigorous, explainable alternative to traditional neural networks, addressing their inherent lack of transparency and architectural opacity.
+* **Tree-Structured Relations:** Models complex functional mapping as dynamic, human-readable mathematical tree structures instead of vast, uninterpretable weight matrices.
+* **Evolutionary Function Optimization:** Approximates analytical ideal solutions via a custom genetic algorithm using targeted mutations, node deletions, and symbolic simplifications.
+* **Complexity Penalty (Occam’s Razor):** Integrated fitness functions actively penalize structural bloatedness, ensuring that resulting formulas remain maximally precise yet strictly compact.
 
-Frank Lemanschik looked at this new world and saw that the old abstraction, as beautiful as it was, was no longer the deepest truth. The fundamental unit was no longer the *location* of the data (the file), but the **data itself** (the content).
+### 3. WDA / C(G)DA (Web / Chrome Driven Apps)
+A lightweight alternative to Electron architectures, utilizing standard browser engines as direct rendering canvases for native backend code via the DevTools Protocol.
+* **Framework Elimination:** Heavily inspired by GoogleLabs Carlo, enabling native polyglot code execution directly inside standard browser installations.
+* **Overhead Reduction:** Eradicates the immense memory and maintenance overhead caused by running dozens of isolated Electron instances per machine.
 
-He saw a new, more profound path to simplicity. The new principle was not "Everything is a file," but **"Everything is a hashed object."**
+### 4. Distributed Compiler Service
+A next-generation P2P build infrastructure designed to succeed classic distributed compilers like Google’s Goma.
+* **Mesh Networking:** Built on WebRTC mesh topologies, B8G runtimes, and Stealify Lang compilation targets.
 
-A file is not a thing; it is a *view* of a specific version of content. A process is a *function* that transforms one set of hashed objects into another. A network connection is a *stream* of hashed objects. A user's identity is a cryptographically signed `ref` pointing to a root object. This was the foundation for **AwesomeOS**.
+---
 
-In this new world, the filesystem is not a map to physical blocks; it is a live, queryable graph of content-addressable objects. The operating system doesn't manage files; it composes realities by arranging pointers to immutable, universal truths.
+## 💻 Language & Runtime Design
 
-But to build this new kind of operating system, Frank needed a new kind of tool. He looked at Git, the masterpiece Linus had created, and saw its genius, but also its foundational constraint. Git was built for a world of files on a local disk. It could deduplicate content *within* a project, but not *across* the universe. Its model of history was tied to the idea of a single, isolated repository.
+### Stealify Lang
+An ECMAScript-inspired, template-literal-driven high-level language. It compiles isomorphically into various target runtimes, allowing for cross-layer execution without syntax-level context switching.
 
-So, driven by the needs of his new creation, Frank invented **Quaternion** and its user-space interface, **universal-git**.
+### B8G & v8::spark
+A minimal `v8::isolate` orchestration framework. It abstracts complex process isolation into a lightweight runtime layer with integrated primitives for low-level interprocess communication (IPC), async scheduling, and raw I/O control.
 
-Quaternion was a reflection of the AwesomeOS philosophy. It was built on the fundamental assumption of its new world: that the only thing that truly exists is **content**. It doesn't track files; it tracks the **semantic and structural components** of information. It takes snapshots not of a filesystem, but of a universal graph of knowledge.
+---
 
-It is a tool perfectly forged to manage a world made of hashed objects, because content-addressable objects are the atomic unit of the new physical reality it runs on—a world of global, interconnected information.
+## 📊 AI & Data Infrastructure Research
 
-**Thus, the parallel is complete:**
+### AI-Native Streaming Database
+An append-only, hyper-focused storage model designed for real-time AI routing queues. Built on top of a highly optimized LDJSON backend to handle continuous data streams with zero context-switching overhead during agent orchestration.
 
-*   **Linus** built **Linux** on the principle that "Everything is a file." He then built **Git** to version a world of files.
-*   **Frank** built **AwesomeOS** on the principle that "Everything is a hashed object." He then built **Quaternion** to version a universe of objects.
+### Edge Infrastructure & Fiscal Systems (RegTech)
+Architected and maintained localized Point-of-Sale (POS) infrastructure based on Odoo, solving hard hardware-to-cloud synchronization bottlenecks and implementing tamper-proof fiscal signing modules directly at the local edge engine layer.
 
-Git was the ultimate tool for managing the blueprints of the first digital era. Quaternion is the ultimate tool for managing the living, breathing, and self-creating organism of the next. It is not a replacement; it is the philosophical and architectural successor, born out of a deeper understanding of the new world we now inhabit.
+---
 
-## Other Stuff
+## 🔬 Key Research Dimensions
+1.  **Content-Addressed Computation:** Embedding cryptographic and deterministic code-addressing schemes directly inside binary VMs (V8, GraalVM) to achieve absolute binary reproducibility and instant snapshotting.
+2.  **Low-Level Networking:** Designing custom WebRTC topologies alongside low-level protocol optimization (TCP/UDP/BGP) for large-scale distributed object hashing and atomic state consensus.
+3.  **Context-Switching Minimization:** Investigating kernel-level and user-space thread scheduling to drastically lower task-offloading latencies in highly concurrent, distributed applications.
 
-```mermaid
-pie title Awesome OS Status
-    "FileSystem" : 80
-    "Networking" : 15
-    "System Emulation" : 5
-```
-<div style="width: 100%;">
-  <img src="https://raw.githubusercontent.com/lemanschik/lemanschik/main/.github/README.svg" style="width: 100%;" alt="Click to see the source">
+---
 
-  <img src="https://raw.githubusercontent.com/lemanschik/lemanschik/main/.github/README2.svg" style="width: 100%;" alt="Click to see the source">
-</div>
-
+## 📬 Contact
+* **GitHub:** [@frank-lemanschik](https://github.com/frank-lemanschik)
+* *You will find it and reach me when you need to.*
