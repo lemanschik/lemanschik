@@ -1,6 +1,58 @@
-# Frank Lemanschik — Research, Inventions & Systems Portfolio
+# Frank Lemanschik — Systems Engineering Beyond the Bloat
 
 Architecting deterministic, content-addressed data systems and hyper-optimized runtimes. Shifting paradigms from heavyweight abstraction layers to lightweight, high-performance execution.
+
+---
+
+Most of what the modern software industry calls **"systems programming"** today has almost nothing to do with actual systems.
+
+Developers spend 80% of their time fighting bloated compiler frontends, wrestling borrow checkers, managing package dependency trees, and navigating heavy OS abstractions—mistaking application plumbing for metal-level engineering.
+
+True systems programming isn't about writing microservices in Rust or fighting C++ header files. **It is about direct control over execution state, memory layout, resource lifecycles, and hardware/isolate scheduling boundaries.**
+
+---
+
+## The First-Principles Stack
+
+I build sovereign, zero-overhead execution infrastructure from the metal up, bypassing traditional runtime bloat by leveraging V8 isolates as pure execution engines and mapping high-level ergonomics directly to hardware speed.
+
+```
+[ StealifyLang ]  -->  Zero-AST Template Compiler & Ambient Semantics
+       │
+       ▼
+[  AwesomeOS   ]  -->  Ring-0 Microkernel, V8 Isolate Manager & SAB Arena Runtime
+       │
+       ▼
+[     B8G      ]  -->  Distributed Edge Mesh, mTLS Routing & P2P Memory Fabric
+
+```
+
+### 1. StealifyLang: Zero-AST Template Compilation
+
+* **No AST Bloat:** Bypasses heavy intermediate representations and traditional file parsing by leveraging ECMAScript template literals and TypeScript ambient facades (`.d.ts`).
+* **Instant Emission:** Scans ambient contexts (`@context`, `@current`) and deterministic scope cleanup (`@defer`) in a single linear pass, emitting raw UniversalABI opcodes directly into memory.
+
+### 2. UniversalABI: O(1) Branchless Dispatch & SAB Arenas
+
+* **Deterministic Memory:** Operates entirely over pre-allocated `SharedArrayBuffer` (SAB) linear memory arenas using structured `DataView` struct layouts—completely eliminating garbage collection (GC) and heap boxing.
+* **Branchless O(1) Lookups:** Replaces virtual method tables and conditional pattern matching with static integer discriminators indexing direct function pointer tables in memory.
+
+### 3. `.b8p`: Runnable Binary Packaging
+
+* **Outperforming Snapshots:** Replaces traditional package managers and heavy serialization with content-addressable binary packages (`.b8p`) that map directly into linear memory via zero-copy mapping (`mmap`) the microsecond they touch the isolate.
+
+### 4. AwesomeOS & B8G: Ring-0 Microkernel & Edge Fabric
+
+* **Zero-Syscall Execution:** Interfaces directly with low-level execution rings and custom task schedulers without relying on standard POSIX syscall overhead.
+* **P2P Memory Mesh:** Distributes compiled memory arenas securely across multi-core nodes and global edge fabrics via zero-copy mTLS, SNI/ALPN passthrough, and WebRTC data channel rings.
+
+---
+
+## The Philosophy
+
+We don't need a heavy, proprietary compiler frontend or a garbage-collected runtime to build fast applications. By combining the pristine ergonomics of modern ambient typing with bare-metal `SharedArrayBuffer` arenas and deterministic microkernel schedulers, we bridge the gap between high-level developer velocity and absolute hardware-level control.
+
+*Execute at the speed of intent.*
 
 ---
 
