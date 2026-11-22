@@ -1,0 +1,242 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 360" width="100%" role="img" aria-label="Lumi the Little White Dragon guiding the 4-stage Awesome-OS and Sectium stack">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#060913" />
+      <stop offset="50%" stop-color="#0c1426" />
+      <stop offset="100%" stop-color="#111834" />
+    </linearGradient>
+    <radialGradient id="lumiAura" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#38bdf8" stop-opacity="0.34" />
+      <stop offset="55%" stop-color="#a78bfa" stop-opacity="0.14" />
+      <stop offset="100%" stop-color="#0c1426" stop-opacity="0" />
+    </radialGradient>
+    <linearGradient id="dragonBody" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#ffffff" />
+      <stop offset="65%" stop-color="#e0f2fe" />
+      <stop offset="100%" stop-color="#bae6fd" />
+    </linearGradient>
+    <linearGradient id="dragonWing" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#f0f9ff" />
+      <stop offset="100%" stop-color="#7dd3fc" />
+    </linearGradient>
+    <linearGradient id="flowLine" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#38bdf8" />
+      <stop offset="50%" stop-color="#a78bfa" />
+      <stop offset="100%" stop-color="#34d399" />
+    </linearGradient>
+    <linearGradient id="cardStroke" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#38bdf8" stop-opacity="0.45" />
+      <stop offset="100%" stop-color="#a78bfa" stop-opacity="0.3" />
+    </linearGradient>
+    <filter id="softGlow" x="-30%" y="-30%" width="160%" height="160%">
+      <feGaussianBlur stdDeviation="4" result="blur" />
+      <feMerge>
+        <feMergeNode in="blur" />
+        <feMergeNode in="SourceGraphic" />
+      </feMerge>
+    </filter>
+    <style>
+      .title { font: 800 30px system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif; fill: #f8fafc; }
+      .sub { font: 500 13.5px system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif; fill: #94a3b8; }
+      .story { font: 600 13px system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif; fill: #bae6fd; }
+      .stage-num { font: 700 10px ui-monospace, Consolas, monospace; fill: #38bdf8; letter-spacing: 0.8px; }
+      .stage-title { font: 800 13.5px system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif; fill: #f1f5f9; }
+      .stage-sub { font: 500 10.5px system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif; fill: #94a3b8; }
+      .pill-txt { font: 600 11px ui-monospace, Consolas, monospace; fill: #cbd5e1; }
+
+      @keyframes floatLumi {
+        0%, 100% { transform: translateY(0px); }
+        50% { transform: translateY(-9px); }
+      }
+      @keyframes wingFlapL {
+        0%, 100% { transform: rotate(0deg); }
+        50% { transform: rotate(-10deg); }
+      }
+      @keyframes wingFlapR {
+        0%, 100% { transform: rotate(0deg); }
+        50% { transform: rotate(10deg); }
+      }
+      @keyframes tailWag {
+        0%, 100% { transform: rotate(0deg); }
+        50% { transform: rotate(7deg); }
+      }
+      @keyframes eyeBlink {
+        0%, 44%, 48%, 100% { transform: scaleY(1); }
+        46% { transform: scaleY(0.12); }
+      }
+      @keyframes sparkle {
+        0%, 100% { opacity: 0.25; transform: scale(0.8); }
+        50% { opacity: 1; transform: scale(1.25); }
+      }
+      @keyframes pulseCard {
+        0%, 100% { stroke-opacity: 0.35; }
+        50% { stroke-opacity: 0.95; }
+      }
+
+      .lumi-group { animation: floatLumi 4.2s ease-in-out infinite; }
+      .wing-l { transform-origin: 122px 175px; animation: wingFlapL 2.1s ease-in-out infinite; }
+      .wing-r { transform-origin: 178px 175px; animation: wingFlapR 2.1s ease-in-out infinite; }
+      .tail { transform-origin: 150px 232px; animation: tailWag 3s ease-in-out infinite; }
+      .eyes { transform-origin: 150px 148px; animation: eyeBlink 5.2s ease-in-out infinite; }
+      .sp1 { transform-origin: 66px 104px; animation: sparkle 2.6s ease-in-out infinite; }
+      .sp2 { transform-origin: 234px 96px; animation: sparkle 3.1s ease-in-out 0.8s infinite; }
+      .sp3 { transform-origin: 244px 222px; animation: sparkle 2.9s ease-in-out 1.4s infinite; }
+      .c1 { animation: pulseCard 4s ease-in-out 0s infinite; }
+      .c2 { animation: pulseCard 4s ease-in-out 1s infinite; }
+      .c3 { animation: pulseCard 4s ease-in-out 2s infinite; }
+      .c4 { animation: pulseCard 4s ease-in-out 3s infinite; }
+    </style>
+  </defs>
+
+  <!-- Main Card Background -->
+  <rect x="2" y="2" width="956" height="356" rx="20" fill="url(#bgGrad)" stroke="url(#cardStroke)" stroke-width="1.5" />
+
+  <!-- Subtle Starfield -->
+  <g fill="#e0f2fe" opacity="0.35">
+    <circle cx="52" cy="54" r="1.4" />
+    <circle cx="280" cy="42" r="1.2" />
+    <circle cx="490" cy="30" r="1.5" />
+    <circle cx="710" cy="44" r="1.2" />
+    <circle cx="905" cy="64" r="1.6" />
+    <circle cx="882" cy="318" r="1.3" />
+    <circle cx="330" cy="328" r="1.2" />
+  </g>
+
+  <!-- Soft Aura Behind Lumi -->
+  <circle cx="150" cy="182" r="118" fill="url(#lumiAura)" />
+
+  <!-- Ground Shadow -->
+  <ellipse cx="150" cy="278" rx="54" ry="10" fill="#020617" opacity="0.55">
+    <animate attributeName="rx" values="54;44;54" dur="4.2s" repeatCount="indefinite" />
+    <animate attributeName="opacity" values="0.55;0.32;0.55" dur="4.2s" repeatCount="indefinite" />
+  </ellipse>
+
+  <!-- Floating Sparkles Around Lumi -->
+  <g filter="url(#softGlow)">
+    <path class="sp1" d="M66 96 L68.5 102 L74 104 L68.5 106 L66 112 L63.5 106 L58 104 L63.5 102 Z" fill="#7dd3fc" />
+    <path class="sp2" d="M234 88 L236.5 94 L242 96 L236.5 98 L234 104 L231.5 98 L226 96 L231.5 94 Z" fill="#c4b5fd" />
+    <path class="sp3" d="M244 215 L246 220 L251 222 L246 224 L244 229 L242 224 L237 222 L242 220 Z" fill="#6ee7b7" />
+  </g>
+
+  <!-- LUMI — The Little White Dragon -->
+  <g class="lumi-group">
+    <!-- Tail -->
+    <g class="tail">
+      <path d="M168 228 C208 232, 224 205, 214 188 C210 182, 200 185, 203 193 C207 204, 194 217, 170 216 Z" fill="url(#dragonBody)" stroke="#93c5fd" stroke-width="1.2" />
+      <path d="M214 186 L225 178 L220 193 Z" fill="#38bdf8" filter="url(#softGlow)" />
+    </g>
+
+    <!-- Left Wing -->
+    <g class="wing-l">
+      <path d="M122 176 C84 142, 54 150, 56 178 C58 198, 86 204, 118 194 Z" fill="url(#dragonWing)" stroke="#7dd3fc" stroke-width="1.4" opacity="0.95" />
+      <path d="M116 182 C92 164, 72 168, 68 182" fill="none" stroke="#38bdf8" stroke-width="1.2" opacity="0.6" />
+    </g>
+
+    <!-- Right Wing -->
+    <g class="wing-r">
+      <path d="M178 176 C216 142, 246 150, 244 178 C242 198, 214 204, 182 194 Z" fill="url(#dragonWing)" stroke="#7dd3fc" stroke-width="1.4" opacity="0.95" />
+      <path d="M184 182 C208 164, 228 168, 232 182" fill="none" stroke="#38bdf8" stroke-width="1.2" opacity="0.6" />
+    </g>
+
+    <!-- Body -->
+    <ellipse cx="150" cy="202" rx="34" ry="38" fill="url(#dragonBody)" stroke="#bae6fd" stroke-width="1.5" />
+    <!-- Soft Belly Glow -->
+    <ellipse cx="150" cy="206" rx="20" ry="26" fill="#ffffff" opacity="0.88" />
+    <path d="M138 196 Q150 201 162 196 M136 208 Q150 213 164 208 M139 220 Q150 224 161 220" fill="none" stroke="#bae6fd" stroke-width="1.4" stroke-linecap="round" />
+
+    <!-- Little Paws -->
+    <ellipse cx="129" cy="233" rx="10" ry="7" fill="#f8fafc" stroke="#93c5fd" stroke-width="1.2" />
+    <ellipse cx="171" cy="233" rx="10" ry="7" fill="#f8fafc" stroke="#93c5fd" stroke-width="1.2" />
+
+    <!-- Head -->
+    <ellipse cx="150" cy="146" rx="36" ry="30" fill="url(#dragonBody)" stroke="#bae6fd" stroke-width="1.5" />
+
+    <!-- Cute Horns -->
+    <path d="M126 123 C118 105, 127 98, 136 116 Z" fill="#e0f2fe" stroke="#38bdf8" stroke-width="1.3" />
+    <path d="M174 123 C182 105, 173 98, 164 116 Z" fill="#e0f2fe" stroke="#38bdf8" stroke-width="1.3" />
+
+    <!-- Glowing Forehead Gem -->
+    <polygon points="150,121 155,129 150,136 145,129" fill="#38bdf8" filter="url(#softGlow)" />
+
+    <!-- Eyes (Animated Blink) -->
+    <g class="eyes">
+      <ellipse cx="136" cy="147" rx="5.5" ry="6.5" fill="#0f172a" />
+      <ellipse cx="164" cy="147" rx="5.5" ry="6.5" fill="#0f172a" />
+      <circle cx="138" cy="144.5" r="2.2" fill="#38bdf8" />
+      <circle cx="166" cy="144.5" r="2.2" fill="#38bdf8" />
+      <circle cx="134.5" cy="149" r="1" fill="#ffffff" />
+      <circle cx="162.5" cy="149" r="1" fill="#ffffff" />
+    </g>
+
+    <!-- Rosy Cheeks & Happy Smile -->
+    <ellipse cx="123" cy="155" rx="5.5" ry="3" fill="#f472b6" opacity="0.35" />
+    <ellipse cx="177" cy="155" rx="5.5" ry="3" fill="#f472b6" opacity="0.35" />
+    <path d="M142 158 Q150 165 158 158" fill="none" stroke="#0f172a" stroke-width="2" stroke-linecap="round" />
+  </g>
+
+  <!-- Lumi Name Badge -->
+  <rect x="86" y="294" width="128" height="24" rx="12" fill="#0f172a" stroke="#38bdf8" stroke-opacity="0.5" />
+  <text x="150" y="310" text-anchor="middle" class="pill-txt">✨ Lumi · Mascot</text>
+
+  <!-- RIGHT SIDE: INLINE STORY & 4-STAGE ARCHITECTURE -->
+  <g transform="translate(292, 46)">
+    <text x="0" y="22" class="title">Frank Lemanschik</text>
+    <text x="0" y="46" class="sub">Systems Architect · Creator of Awesome-OS, Sectium &amp; StealifyLang</text>
+    <text x="0" y="74" class="story">Lumi's Story: Building a sovereign, zero-bloat OS stack — one real binary at a time.</text>
+
+    <!-- Animated Stream Connector Line -->
+    <line x1="76" y1="148" x2="564" y2="148" stroke="url(#flowLine)" stroke-width="2.5" stroke-dasharray="6 6" opacity="0.65" />
+    <!-- Traveling Light Orb 1 -->
+    <circle cy="148" r="4.5" fill="#38bdf8" filter="url(#softGlow)">
+      <animate attributeName="cx" values="76;564" dur="3.6s" repeatCount="indefinite" />
+      <animate attributeName="opacity" values="0;1;1;0" dur="3.6s" repeatCount="indefinite" />
+    </circle>
+    <!-- Traveling Light Orb 2 -->
+    <circle cy="148" r="3.5" fill="#a78bfa" filter="url(#softGlow)">
+      <animate attributeName="cx" values="76;564" dur="3.6s" begin="1.8s" repeatCount="indefinite" />
+      <animate attributeName="opacity" values="0;1;1;0" dur="3.6s" begin="1.8s" repeatCount="indefinite" />
+    </circle>
+
+    <!-- Stage 1: Sectium -->
+    <g transform="translate(0, 102)">
+      <rect class="c1" width="148" height="92" rx="12" fill="#0d1527" stroke="#38bdf8" stroke-width="1.3" />
+      <text x="14" y="24" class="stage-num">01 · CORE ENGINE</text>
+      <text x="14" y="47" class="stage-title">Sectium</text>
+      <text x="14" y="65" class="stage-sub">BSD-3 Chromium core</text>
+      <text x="14" y="80" class="stage-sub">0 closed vendor DLLs</text>
+    </g>
+
+    <!-- Stage 2: B8G -->
+    <g transform="translate(162, 102)">
+      <rect class="c2" width="148" height="92" rx="12" fill="#0d1527" stroke="#60a5fa" stroke-width="1.3" />
+      <text x="14" y="24" class="stage-num">02 · SUBSTRATE</text>
+      <text x="14" y="47" class="stage-title">B8G Runtime</text>
+      <text x="14" y="65" class="stage-sub">Zero-copy SAB arenas</text>
+      <text x="14" y="80" class="stage-sub">.b8p SHA-256 CAS</text>
+    </g>
+
+    <!-- Stage 3: StealifyLang / Holo -->
+    <g transform="translate(324, 102)">
+      <rect class="c3" width="148" height="92" rx="12" fill="#0d1527" stroke="#a78bfa" stroke-width="1.3" />
+      <text x="14" y="24" class="stage-num">03 · ALGEBRA</text>
+      <text x="14" y="47" class="stage-title">Stealify / Holo</text>
+      <text x="14" y="65" class="stage-sub">7-Tuple Web Streams</text>
+      <text x="14" y="80" class="stage-sub">&lt;b8g-*&gt; components</text>
+    </g>
+
+    <!-- Stage 4: Awesome-OS -->
+    <g transform="translate(486, 102)">
+      <rect class="c4" width="148" height="92" rx="12" fill="#0d1527" stroke="#34d399" stroke-width="1.3" />
+      <text x="14" y="24" class="stage-num">04 · DESTINATION</text>
+      <text x="14" y="47" class="stage-title">Awesome-OS</text>
+      <text x="14" y="65" class="stage-sub">Bare-metal KVM/VFIO</text>
+      <text x="14" y="80" class="stage-sub">Always-on Agent Host</text>
+    </g>
+
+    <!-- Bottom Highlights Ribbon -->
+    <g transform="translate(0, 224)">
+      <rect width="634" height="44" rx="10" fill="#0a1020" stroke="#22324d" stroke-width="1" />
+      <text x="16" y="26" class="pill-txt">⚡ Native Win64 + Linux ELF64 (0 WSL)  ·  O(1) CoW Epoch Rollbacks  ·  Local LLM &amp; LoRA Studio</text>
+    </g>
+  </g>
+</svg>

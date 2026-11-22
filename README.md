@@ -1,19 +1,19 @@
-### Hi there 👋
+<p align="center">
+  <img src="./lumi-story.svg" alt="Lumi the Little White Dragon — Awesome-OS & Sectium 4-Stage Stack" width="100%" />
+</p>
 
-<!--
-**lemanschik/lemanschik** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+<p align="center">
+  <a href="https://awesome-os.com"><strong>awesome-os.com</strong></a> &nbsp;·&nbsp;
+  <a href="https://b8g.app"><strong>b8g.app</strong></a> &nbsp;·&nbsp;
+  <a href="https://lemanschik.com"><strong>lemanschik.com</strong></a> &nbsp;·&nbsp;
+  <a href="https://github.com/awesome-os"><strong>github.com/awesome-os</strong></a>
+</p>
 
-Here are some ideas to get you started:
+---
 
-# 🔭 I’m currently working on ...
-- [ ] Migrating https://github.com/frank-dspeed to https://github.com/lemanschik/frank
-- [ ] Migrating https://github.com/frank-dspeed to https://github.com/lemanschik
+### What I'm Building
 
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+- **[Sectium](https://github.com/awesome-os/chromium.googlesource.com)** — Open-source BSD-3 Chromium-derived core engine (`0` closed Google/Microsoft DLLs, `sectium-minimal-7` 7-subtree allowlist, unified `/shell` default interaction shell).
+- **[Awesome-OS](https://github.com/awesome-os/awesome-os)** — Sovereign content-addressed operating system & runtime built on zero-copy `SharedArrayBuffer` arenas (`B8G_ARENA_V1`), SHA-256 `.b8p` CAS packs, and $O(1)$ Copy-on-Write epoch-pointer rollbacks.
+- **Persistent Multi-UI Agent Host & Sovereign LLM Studio** — Always-on local agent daemon (`b8g-agent-host`) surviving IDE reloads across VS Code, Sectium Shell, and Hyperscaler Desktop, paired with local OpenAI/Ollama/GGUF/Unsloth LoRA tooling (`b8g-llm-studio`).
+- **Zero-WSL Native Cross-Compilation** — Building Win64 PE, Linux ELF64, and WASI targets natively via `zig cc`/`c++` and our zero-Ninja DAG executor (`b8g-dag-build`).
