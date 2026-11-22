@@ -1,0 +1,103 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 410" width="1200" height="410" role="img" aria-label="Old Duplicated Bloat vs Algebraic ABI-Driven OS Architecture">
+  <defs>
+    <linearGradient id="bg2" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#090c10"/>
+      <stop offset="100%" stop-color="#0e141d"/>
+    </linearGradient>
+    <linearGradient id="greenGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#3fb950"/>
+      <stop offset="100%" stop-color="#58a6ff"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="1200" height="410" rx="16" fill="url(#bg2)" stroke="#232d3b" stroke-width="2"/>
+
+  <!-- Left Panel: Legacy Duplicated World -->
+  <g transform="translate(28, 28)">
+    <rect width="540" height="354" rx="12" fill="#121016" stroke="#f85149" stroke-opacity="0.45" stroke-width="1.5"/>
+    <text x="24" y="34" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="12.5" fill="#f85149" font-weight="700">LEGACY BASELINE · COPY &amp; DUPLICATE EVERYTHING</text>
+    <text x="24" y="58" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, sans-serif" font-size="14" fill="#8b949e">Every app ships its own hidden browser, daemon, and copy layer.</text>
+
+    <!-- 3 Heavy App Boxes -->
+    <g transform="translate(24, 82)">
+      <rect width="154" height="118" rx="8" fill="#1b141a" stroke="#f85149" stroke-opacity="0.4"/>
+      <text x="77" y="26" text-anchor="middle" font-family="sans-serif" font-size="13" font-weight="700" fill="#e6edf3">Chat App</text>
+      <rect x="12" y="40" width="130" height="28" rx="5" fill="#32181d"/>
+      <text x="77" y="58" text-anchor="middle" font-family="monospace" font-size="11" fill="#ffa198">200 MB Chromium</text>
+      <rect x="12" y="76" width="130" height="28" rx="5" fill="#251a20"/>
+      <text x="77" y="94" text-anchor="middle" font-family="monospace" font-size="10.5" fill="#8b949e">JSON/HTTP IPC</text>
+    </g>
+
+    <g transform="translate(193, 82)">
+      <rect width="154" height="118" rx="8" fill="#1b141a" stroke="#f85149" stroke-opacity="0.4"/>
+      <text x="77" y="26" text-anchor="middle" font-family="sans-serif" font-size="13" font-weight="700" fill="#e6edf3">Code Editor</text>
+      <rect x="12" y="40" width="130" height="28" rx="5" fill="#32181d"/>
+      <text x="77" y="58" text-anchor="middle" font-family="monospace" font-size="11" fill="#ffa198">200 MB Chromium</text>
+      <rect x="12" y="76" width="130" height="28" rx="5" fill="#251a20"/>
+      <text x="77" y="94" text-anchor="middle" font-family="monospace" font-size="10.5" fill="#8b949e">Own GPU + V8</text>
+    </g>
+
+    <g transform="translate(362, 82)">
+      <rect width="154" height="118" rx="8" fill="#1b141a" stroke="#f85149" stroke-opacity="0.4"/>
+      <text x="77" y="26" text-anchor="middle" font-family="sans-serif" font-size="13" font-weight="700" fill="#e6edf3">Browser</text>
+      <rect x="12" y="40" width="130" height="28" rx="5" fill="#32181d"/>
+      <text x="77" y="58" text-anchor="middle" font-family="monospace" font-size="11" fill="#ffa198">300–600 MB DLLs</text>
+      <rect x="12" y="76" width="130" height="28" rx="5" fill="#251a20"/>
+      <text x="77" y="94" text-anchor="middle" font-family="monospace" font-size="10.5" fill="#8b949e">Trackers &amp; Bloat</text>
+    </g>
+
+    <!-- Bottom cost summary -->
+    <rect x="24" y="224" width="492" height="106" rx="8" fill="#171115" stroke="#302126"/>
+    <text x="42" y="252" font-family="monospace" font-size="12" fill="#ffa198" font-weight="700">RESULT ON EVERY USER'S MACHINE:</text>
+    <text x="42" y="276" font-family="sans-serif" font-size="13" fill="#c9d1d9">• 10 Electron apps = ~2.0 GB duplicated engines + 6–10 GB RAM</text>
+    <text x="42" y="298" font-family="sans-serif" font-size="13" fill="#c9d1d9">• Proprietary Chrome (296 MB) / Edge (600 MB) closed telemetry DLLs</text>
+    <text x="42" y="320" font-family="sans-serif" font-size="13" fill="#c9d1d9">• Port collisions (127.0.0.1:PORT), noisy logs, endless serialization</text>
+  </g>
+
+  <!-- Center Arrow -->
+  <g transform="translate(578, 185)">
+    <line x1="0" y1="20" x2="36" y2="20" stroke="url(#greenGrad)" stroke-width="3.5"/>
+    <polygon points="34,11 48,20 34,29" fill="#58a6ff"/>
+  </g>
+
+  <!-- Right Panel: Algebraic ABI-Driven OS Architecture -->
+  <g transform="translate(632, 28)">
+    <rect width="540" height="354" rx="12" fill="#0d151c" stroke="#3fb950" stroke-opacity="0.55" stroke-width="1.5"/>
+    <text x="24" y="34" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="12.5" fill="#3fb950" font-weight="700">NEW BASELINE · ALGEBRAIC ABI-DRIVEN ARCHITECTURE</text>
+    <text x="24" y="58" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, sans-serif" font-size="14" fill="#8b949e">Apps intersect directly on one zero-copy shared memory fabric.</text>
+
+    <!-- Thin Intersecting Apps Row -->
+    <g transform="translate(24, 80)" font-family="monospace" font-size="11.5">
+      <rect x="0" y="0" width="114" height="44" rx="7" fill="#13222e" stroke="#58a6ff" stroke-opacity="0.6"/>
+      <text x="57" y="19" text-anchor="middle" fill="#e6edf3" font-weight="700">Electron</text>
+      <text x="57" y="35" text-anchor="middle" fill="#79c0ff">--asar stub</text>
+
+      <rect x="126" y="0" width="114" height="44" rx="7" fill="#13222e" stroke="#58a6ff" stroke-opacity="0.6"/>
+      <text x="183" y="19" text-anchor="middle" fill="#e6edf3" font-weight="700">CEF Apps</text>
+      <text x="183" y="35" text-anchor="middle" fill="#79c0ff">174 KB shim</text>
+
+      <rect x="252" y="0" width="114" height="44" rx="7" fill="#13222e" stroke="#58a6ff" stroke-opacity="0.6"/>
+      <text x="309" y="19" text-anchor="middle" fill="#e6edf3" font-weight="700">Wayland</text>
+      <text x="309" y="35" text-anchor="middle" fill="#79c0ff">b8g-wl-shim</text>
+
+      <rect x="378" y="0" width="114" height="44" rx="7" fill="#13222e" stroke="#58a6ff" stroke-opacity="0.6"/>
+      <text x="435" y="19" text-anchor="middle" fill="#e6edf3" font-weight="700">T2-SDE</text>
+      <text x="435" y="35" text-anchor="middle" fill="#79c0ff">CoW-VFS</text>
+    </g>
+
+    <!-- 7-Tuple Algebraic Gate -->
+    <rect x="24" y="140" width="492" height="48" rx="8" fill="#14192b" stroke="#a371f7" stroke-opacity="0.6"/>
+    <text x="270" y="161" text-anchor="middle" font-family="monospace" font-size="12" fill="#d2a8ff" font-weight="700">7-TUPLE EXECUTION CONTEXT GATE · C_cloud = (B, D, L, T, κ, Λ, Ω)</text>
+    <text x="270" y="179" text-anchor="middle" font-family="sans-serif" font-size="11.5" fill="#c9d1d9">Visual Reachability · Local OS Pipe (0 HTTP) · Capability Epochs · Consumer Ω = 0 Overhead</text>
+
+    <!-- Shared Zero-Copy Arena -->
+    <rect x="24" y="204" width="492" height="54" rx="8" fill="#0f2318" stroke="#3fb950" stroke-opacity="0.7"/>
+    <text x="270" y="227" text-anchor="middle" font-family="monospace" font-size="13" fill="#3fb950" font-weight="700">B8G_ARENA_V1 · ZERO-COPY SHARED INTERSECTION FABRIC</text>
+    <text x="270" y="246" text-anchor="middle" font-family="sans-serif" font-size="12" fill="#c9d1d9">defineSection / intersect · wedge (^) · meet (&amp;) · project (|&gt;) · evolve (∇) O(1) rollback</text>
+
+    <!-- Bottom Wins -->
+    <rect x="24" y="272" width="492" height="60" rx="8" fill="#111922" stroke="#232d3b"/>
+    <text x="42" y="296" font-family="sans-serif" font-size="12.5" fill="#e6edf3">✔ <tspan font-weight="700" fill="#3fb950">0 closed DLLs</tspan> in open-source B8G-Chrome · <tspan font-weight="700" fill="#58a6ff">1 shared engine</tspan> for every app</text>
+    <text x="42" y="318" font-family="sans-serif" font-size="12.5" fill="#e6edf3">✔ <tspan font-weight="700" fill="#d2a8ff">1 singleton OS pipe</tspan> (b8g-host-bus) + unified multi-agent <tspan font-weight="700">b8g-devops</tspan></text>
+  </g>
+</svg>
