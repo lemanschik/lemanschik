@@ -236,7 +236,7 @@
     <!-- Bottom Highlights Ribbon -->
     <g transform="translate(0, 224)">
       <rect width="634" height="44" rx="10" fill="#0a1020" stroke="#22324d" stroke-width="1" />
-      <text x="16" y="26" class="pill-txt">⚡ Native Win64 + Linux ELF64 (0 WSL)  ·  O(1) CoW Epoch Rollbacks  ·  Local LLM &amp; LoRA Studio</text>
+      <text x="16" y="26" class="pill-txt">⚡ Antigravity Host · Google AI Studio &amp; Colab GPU Mesh · Native Win64/ELF64 (0 WSL)</text>
     </g>
   </g>
 </svg>
